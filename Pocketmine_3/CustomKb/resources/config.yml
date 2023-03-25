@@ -1,0 +1,16 @@
+---
+# DO NOT TOUCH !!!
+version: 1
+
+# Command
+command: "customkb:CustomKb Command:customkb.use"
+command_aliases: []
+
+no_args: "In the console: /customkb <World> <Kb> | In game: /customkb <Kb>"
+is_numeric: "The kb must be in numbers!"
+no_world: "The indicated world does not exist!"
+
+# {world} | {kb}
+no_perm: "§cYou don't have permission!"
+customkb_message: "You have just changed the kb of the world {world}! ({kb}) "
+...

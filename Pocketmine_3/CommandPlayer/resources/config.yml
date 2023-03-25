@@ -1,0 +1,10 @@
+---
+desc: "PlayerCommand"
+perm: "commandplayer.use"
+command.good: "You have just executed the command§c {command} §ffor §c{player} "
+no.command: "You must indicate an order! "
+offline: "The indicated player is Offline "
+no.player: "You must indicate a player! "
+no.perm: "You don't have permission! "
+console: "The command must be executed in-game! "
+...

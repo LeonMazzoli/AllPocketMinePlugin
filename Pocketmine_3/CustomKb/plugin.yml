@@ -1,0 +1,5 @@
+name: CustomKb
+version: 1.0
+api: 3.0.0
+main: CustomKb\CustomMain
+author: Digueloulou12

@@ -1,0 +1,151 @@
+---
+# Message d'execution de la commande pour soit meme
+adminmenu.on: "Vous etes passé en mode admin !"
+adminmenu.off: "Vous avez quitter le mode admin !"
+
+# Message d'execution de la commande pour un autre joueur
+adminmenu.user.on: "{player} vous a mis en mode admin !"
+adminmenu.user.off: "{player} vous a fait quitter le mode admin !"
+adminmenu.user.on.player: "Vous venez de mettre en mode admin {player} !"
+adminmenu.user.off.player: "Vous venez d'enlever le mode admin de {player} !"
+
+# Message de permission
+no.perm: "Vous n'avez pas la permission !"
+
+# Message commande executer depuis la console
+no.player: "La commande doit être executer en jeu !"
+
+# Message pour quand le joueur indiqué n'est pas connecté
+player.null: "Le joueur sélectionné na pas été trouver !"
+
+# Item
+vanish.id: "20"
+vanish.slot: "6"
+vanish.name: "Vanish"
+
+stick.kb: "10"
+stick.slot: "2"
+stick.name: "Stick"
+
+freeze.id: "174"
+freeze.slot: "4"
+freeze.name: "Freeze"
+
+ban.id: "7"
+ban.slot: "0"
+ban.name: "Ban"
+
+kick.id: "286"
+kick.slot: "8"
+kick.name: "Kick"
+
+ping.id: "50"
+ping.slot: "1"
+ping.name: "Ping"
+
+mute.id: "462"
+mute.slot: "7"
+mute.name: "Mute"
+
+tp.id: "399"
+tp.slot: "3"
+tp.name: "Téléportation"
+
+kill.id: "743"
+kill.slot: "5"
+kill.name: "Kill"
+
+# RandomTp distance
+wild-MaxX: "1500"
+wild-MaxY: "1500"
+
+# Ping
+ping.title: "Ping"
+ping.content: "Regarde le nombre de ping du joueur que tu veux:"
+ping.input: "Nom du joueur"
+ping.player.no: "Le joueur na pas été trouvé !"
+ping.message.serveur: "Le joueur sélectionné a {ping} ms !"
+
+# Kick
+kick.title: "Kick"
+kick.content: "Kick le joueur désiré, n'oublie pas d'y indiquer la raison\n§7Attention !\nTout les utilisateurs seront informé de ton action !"
+kick.input: "Nom du joueur"
+kick.inputr: "Raison"
+kick.player.no: "Le joueur na pas été trouvé !"
+kick.message: "Vous venez de kick {player}"
+kick.kick: "\nVous avez été kick pour {raison}"
+kick.serveur: "Le joueur {player} a été kick !"
+
+# Freeze
+freeze.title: "Freeze"
+freeze.content: "Freeze le joueur que tu veux:"
+freeze.input: "Nom du joueur"
+freeze.player.no: "Le joueur na pas été trouvé !"
+freeze.message: "Vous etes freeze !"
+freeze.message.player: "Vous venez de freeze le joueur !"
+unfreeze.message: "Vous etes unfreeze !"
+unfreeze.message.player: "Vous venez d'unfreeze le joueur !"
+
+# Vanish
+vanish.message.on: "Vous venez de passé en vanish !"
+vanish.message.off: "Vous venez de quitter le vanish !"
+
+# Rtp
+rtp.message: "Vous avez été téléporté a des coordonnées random !"
+
+# Mute
+mute.title: "Mute"
+mute.content: "Mute le joueur que tu veux:"
+mute.input: "Nom du joueur"
+mute.inputt: "Temps: (en minute(s))"
+mute.player.no: "Le joueur na pas été trouvé !"
+mute.message.player: "Vous venez de mute le joueur pour {raison} !"
+mute.message: "Vous venez d'être mute pendant {temps}"
+mute.deja: "Le joueur est déja mute !"
+mute.temps: "Le temps doit être en chiffre !"
+mute.force: "Vous ne pouvez pas parlé pendant que vous etes mute !"
+mute.inputr: "Raison"
+mute.no.raison: "Vous devez indiquer une raison !"
+
+# Teleportation
+tp.title: "Joueur"
+tp.content: "Choisie le joueur au quel tu veux te téleporté:"
+tp.no: "Vous ne pouvez pas vous téléporte a ce joueur"
+tp.message: "Vous vous etes bien téléporté !"
+
+# Ban
+ban.title: "Ban"
+ban.content: "Ban le joueur que tu veux:"
+ban.join: "Vous êtes encore banni(e)"
+ban.input: "Nom du joueur"
+ban.inputr: "Raison"
+ban.inputt: "Temps"
+ban.temps.no: "Vous devez indiqué un temps !"
+ban.raison: "Vous devez indiquer une raison !"
+ban.serveur.message: "{player} a été banni !"
+ban.message.player: "Vous avez ban {player} !"
+
+# Unban
+unban.title: "Unban"
+unban.content: "Unban le joueur que tu veux:"
+unban.input: "Nom du joueur"
+unban.message: "Vous venez d'unban {player}"
+unban.no.player: "Le joueur n'est pas banni !"
+
+# EntreBan
+entreban.title: "EntreBan"
+entreban.content: "Choisissez l'action que vous voulez:"
+ban.boutton: "Ban"
+unban.button: "Unban"
+
+# Kill
+kill.title: "Kill"
+kill.content: "Kill le joueur que tu veux:"
+kill.input: "Nom du joueur"
+kill.inputr: "Raison"
+kill.raison.no: "Vous devez indiqué une raison !"
+kill.player.no: "Vous devez entrer un nom de joueur valide !"
+kill.serveur.message: "{player} a été kill parce qu'il n'a pas respecter le reglement !"
+kill.message.player: "Vous venez de kill {player} !"
+kill.message: "Vous avez été kill par {player}"
+...

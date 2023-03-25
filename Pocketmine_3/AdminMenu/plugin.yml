@@ -1,0 +1,16 @@
+name: AdminMenu
+version: 0.1
+api: 3.0.0
+main: Admin\Menu
+author: Digueloulou12
+
+commands:
+  adminmenu:
+    description: "AdminMenu"
+
+permissions:
+  adminmenu.use:
+    description: "Donne l'acces a la commande"
+
+  adminmenu.user.use:
+    description: "Donne l'acces a la commande pour mettre en mode admin un autre joueur"

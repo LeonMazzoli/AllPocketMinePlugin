@@ -1,0 +1,27 @@
+---
+# Item
+# "ID:META:SLOT:NAME"
+item: "345:0:4:§fServers"
+
+# Form
+title: "Servers"
+content: "Chsoisie le serveur que tu veux:"
+servers:
+  Lobby:
+    ip: "rutelia-mc.fr:19132"
+    form: "§7- §fRutélia §f-"
+  KitMap:
+    ip: "rutelia-mc.fr:19135"
+    form: "§7- §fKitMap §f-"
+
+# Events
+op: true
+
+drop: false
+damage: false
+food: false
+break: false
+place: false
+fly: true
+use: true
+...

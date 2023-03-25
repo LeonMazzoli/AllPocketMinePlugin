@@ -1,0 +1,17 @@
+---
+# Config Version 0.1
+# DO NOT TOUCH
+config: 1
+
+desc: "FlyBlock Command"
+perm: "flyblock.use"
+noperm: "You do not have permission to use this command!"
+console: "The command must be executed in-game!"
+disable: "You have just deactivated your flyblock! "
+enable: "You have just activated your flyblock!"
+
+inventory: true
+buildonbuild: false
+
+block: "1:0"
+...

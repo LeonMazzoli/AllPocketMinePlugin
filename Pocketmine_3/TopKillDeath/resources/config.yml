@@ -1,0 +1,17 @@
+---
+# Commands
+# "COMMAND:DESCRIPTION:PERMISSION"
+topkill_command: true
+topkill: "topkill:TopKill Command"
+topkill_aliases: []
+topkill_title: "------ Kill ------"
+topkill_msg: "#{number} -> {name} | {count} kill"
+top_kill: 10
+
+topdeath_command: true
+topdeath: "topdeath:TopDeath Command"
+topdeath_aliases: []
+topdeath_title: "------ Death ------"
+topdeath_msg: "#{number} -> {name} | {count} death"
+top_death: 10
+...

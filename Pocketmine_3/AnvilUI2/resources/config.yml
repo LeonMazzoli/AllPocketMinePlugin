@@ -1,0 +1,53 @@
+---
+# Config
+config: 2
+
+
+
+# Anvil Command
+command: true
+
+description: "Open AnvilUI"
+permission: "anvil.use"
+
+console: "The command must be executed in-game!"
+noperm: "You do not have permission to use this command!"
+
+# AnvilReload Command
+descriptionr: "Reload config AnvilUI by Digueloulou12"
+permissionr: "anvilreload.use"
+
+nopermr: "You do not have permission to use this command!"
+reloadgood: "The configs have been reloaded! "
+
+# Anvil
+noitem: "You cannot interact with the anvil with air in your hand!"
+renamenull: "You must have given a name!"
+xprename: 3
+renamegood: "You have just renamed your item in {NAME}"
+noxprename: "You don't have enough xp to rename your item!"
+norepair: "You cannot repair this item!"
+norepairmeta: "You can no longer repair this item!"
+xprepair: 5
+repairgood: "You have just repaired your item for 5 xp level!"
+noxprepair: "ou don't have enough xp for repair!"
+
+# Main Form
+mainform:
+  title: "AnvilUI"
+  content: "Choose what you want to do:"
+  rename: "Rename"
+  repair: "Repair"
+
+# Rename Form
+renameform:
+  title: "AnvilUI"
+  content: "Rename item in hand:"
+  name: "Name"
+
+repairform:
+  title: "AnvilUI"
+  content: "Repair item in hand:\n§7(Do you want to repair the item in your hand for 5 xp levels?)"
+  yes: "yes"
+  no: "no"
+...

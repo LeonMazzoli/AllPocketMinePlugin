@@ -1,0 +1,8 @@
+---
+desc: "passe en god mod"
+perm: "god.use"
+noperm: "Vous n'avez pas la permission !"
+ig: "La commande doit être executer en jeu !"
+yes: "Vous venez de passer en god mod !"
+no: "Vous venez de quitter le god mod !"
+...

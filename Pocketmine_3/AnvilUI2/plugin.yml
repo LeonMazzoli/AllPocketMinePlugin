@@ -1,0 +1,5 @@
+name: AnvilUI
+version: 2.0
+api: 3.0.0
+main: Anvil\AnvilMain
+author: Digueloulou12
