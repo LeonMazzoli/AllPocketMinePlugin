@@ -1,0 +1,10 @@
+---
+items:
+  369-0: [100, 200, 500, 1000]
+  280-0: [5000, 10000, 20000]
+
+message: "+{money}$"
+
+# EconomyAPI | MoneyAPI | BedrockEconomy
+economy: MoneyAPI
+...

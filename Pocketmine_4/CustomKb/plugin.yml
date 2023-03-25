@@ -1,0 +1,14 @@
+name: CustomKb
+version: 1.5
+api: 4.0.0
+main: Digueloulou12\CustomKb
+author: Digueloulou12
+
+permissions:
+  customkb.use:
+    default: op
+
+commands:
+  customkb:
+    description: "CustomKb Command"
+    permission: customkb.use

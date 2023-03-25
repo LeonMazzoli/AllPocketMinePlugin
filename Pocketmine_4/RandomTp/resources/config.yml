@@ -1,0 +1,28 @@
+---
+worlds: ["world"]
+
+# [COMMAND, DESCRIPTION, PERMISSION]
+command: ["randomtp", "RandomTp Command"]
+command_aliases: ["rtp"]
+
+instant_permission: "rtp"
+
+delay: 10
+
+min_x: -5000
+max_x: 5000
+
+min_y: 100
+max_y: 100
+
+min_z: -5000
+max_z: 5000
+
+resistance_effect: true
+
+cooldown: "Rtp in {time}s"
+no_rtp: "You moved, the teleport was canceled"
+
+no_player: "The command must be executed in game !"
+no_world: "RTP is not enabled in the world you are in!"
+...
