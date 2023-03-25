@@ -1,0 +1,5 @@
+name: Discord
+version: 1.0
+api: 3.0.0
+main: Discord\DiscordMain
+author: Digueloulou12

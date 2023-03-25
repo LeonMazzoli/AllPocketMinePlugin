@@ -1,0 +1,11 @@
+---
+# Join
+join: true
+type: "tip" # TIP | POPUP | MESSAGE | TITLE
+msg: "{player}--"
+
+# Leave
+leave: true
+type_: "tip" # TIP | POPUP | MESSAGE | TITLE
+msg_: "{player}--"
+...

@@ -1,0 +1,11 @@
+---
+# Plugin de money utilisé: EconomyAPI, FacEssential
+eco: EconomyAPI
+
+# Mettre true si le joueur a une chance de récupéré de la money
+chance: false
+# Mettre le chiffre de 1 chance sur ??
+chance.money: "5"
+
+money: "1000"
+...

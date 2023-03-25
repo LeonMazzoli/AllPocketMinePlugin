@@ -1,0 +1,78 @@
+---
+# ["COMMAND", "DESCRIPTION"]
+command: ["kit", "Kit Command"]
+command_aliases: []
+
+permission_add: "addkit.use"
+
+# EconomyAPI | MoneyAPI
+eco: MoneyAPI
+
+# Messages
+remove_kit: "Vous avez supprimé le kit {kit} !"
+is_numeric: "Le prix doit être en chiffre !"
+no_player: "La commande doit être utiliser en jeu !"
+no_title: "Vous devez indiquer un nom pour votre kit !"
+no_money: "Vous n'avez pas assez d'argent !"
+no_price: "Vous devez indiquer un prix !"
+no_exist: "Le kit indiqué n'existe pas !"
+no_perm: "Vous n'avez pas la permission !"
+no_time: "Vous devez encore attendre avant de récuper le kit !"
+create: "Vous avez créé le kit {kit} !"
+no_kit: "Vous devez indiquer le nom d'un kit !"
+exist: "Un kit à déja ce nom !"
+
+# Form
+title: "Kits"
+content: null # NULL or "TEXT"
+label: "Veuillez indiquer toutes les informations demander pour créé le kit:"
+input_name: "Nom:"
+input_price: "Prix:"
+input_perm: "Permission: ( Ne rien mettre pour que le kit soit disponible pous tous )"
+slider_day: "Jour(s)"
+slider_hour: "Heure(s)"
+slider_minute: "Minute(s)"
+slider_second: "Seconde(s)"
+dropdown: "Catégorie:"
+back_button: "§l§cBack" # NULL or "TEXT"
+
+category: ["Grade", "Utile"] # [] or list category
+
+kits:
+  Player:
+    category: "Grade"
+    perm: null
+    cost: 0
+    button: "§7- §fPlayer §7-\n{cost}"
+    effects: [ [ 1, 0, 60, false] ] # [ [ ID, LEVEL, TIME, PARTICLE] ]
+    items: [ [ 1, 0, 64 ], [ 285, 0, 1, [ [ 17, 1] ] ] ]
+    helmet: null
+    chestplate: null
+    leggings: null
+    boots: null
+    time: [ 1 ] # [DAYS, HOURS, MINUTES, SECONDS]
+  Ange:
+    category: "Grade"
+    perm: "ange.kit"
+    cost: 100
+    button: "§9- §fAnge §9-\n{cost}"
+    effects: null
+    items: [ [ 1, 0, 64 ], [ 285, 0, 1, [ [ 17, 1 ] ] ] ]
+    helmet: null
+    chestplate: null
+    leggings: null
+    boots: [ 304, 0, 1 ]
+    time: [ 0, 0, 0, 10 ] # [DAYS, HOURS, MINUTES, SECONDS]
+  Builder:
+    category: "Utile"
+    perm: "builder.kit"
+    cost: 100
+    button: "§e- §fBuilder §e-\n{cost}"
+    effects: null
+    items: [ [ 1, 0, 64 ], [ 285, 0, 1, [ [ 17, 1 ] ] ] ]
+    helmet: null
+    chestplate: null
+    leggings: null
+    boots: [ 304, 0, 1 ]
+    time: [ 0, 0, 0, 10 ] # [DAYS, HOURS, MINUTES, SECONDS]
+...

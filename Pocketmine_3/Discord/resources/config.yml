@@ -1,0 +1,16 @@
+---
+webhook: ""
+
+join: true
+leave: true
+death: true
+command: true
+message: true
+
+
+join.message: "{player} ++"
+leave.message: "{player} --"
+death.message: "{player} RIP"
+chat.message: "{player}: {message}"
+command.message: "{player}: {command}"
+...

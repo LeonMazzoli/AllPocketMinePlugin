@@ -1,0 +1,7 @@
+---
+commands: # "COMMAND_EXECUTE:COMMAND:CHANCE" -> COMMAND_EXECUTE = "killer" or "console" or "victim" | CHANCE = ??/100
+  - "killer:addmoney {killer} 10:50"
+  - "console:removemoney {victim} 5:0"
+  - "console:tell {victim} rip:0"
+  - "console:tell {killer} gg:0"
+...

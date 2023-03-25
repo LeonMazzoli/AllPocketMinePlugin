@@ -1,0 +1,38 @@
+---
+# Command
+# command: "COMMAND:DESCRIPTION:PERMISSION"
+command: "shop:Shop Command"
+command_aliases: []
+
+# Message
+noplayer: "La commande doit être executer en jeu !"
+noperm: "Vous n'avez pas la permission d'utiliser cette commnande !"
+noshopdefault: "Vous devez indiquer le nom d'un shop !"
+noexistshop: "Le shop indiquer n'existe pas !"
+
+nomoney: "Vous n'avez pas assez d'argent !"
+noplace: "Vous n'avez pas assez de place dans votre inventaire !"
+novalid: "Vous devez indiquer un montant valide !"
+nosell: "Vous n'avez pas la quantité que vous voulez vendre !"
+buymsg: "Vous avez acheter {count}x {item} pour {money}$ dans le shop !"
+sellmsg: "Vous avez vendu {count}x {item} pour {money}$ dans le shop !"
+
+# mettre " " si vous ne voulez pas de shop par defaut
+default_shop: block
+
+title: "Shop"
+label: "Indiquer la quantité que vous voulez:\nAchat: {buy}$/u\nVente: {sell}$/u"
+toggle: "Acheter | Vendre"
+input: "Quantité"
+shop: # - "ID:META:COUNT:NAME:PRICE_SHOP:PRICE_SELL:BUTTON"
+  block:
+    type: category
+    decoration:
+      - "4:0:1:Ender Pearl:25:10:Ender Pearl 25$/u"
+      - "5:0:1:Spawner:500:5:Spawner 500$/u"
+    divers:
+      - "3:0:1:Argile:20:0:Argile 20$/u"
+  food:
+    - "1:0:1:Steak:10:0:Steak 10$/u"
+    - "2:0:1:Poulet:15:0:Poulet 15$/u"
+...
