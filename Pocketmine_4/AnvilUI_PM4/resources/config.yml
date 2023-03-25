@@ -1,0 +1,33 @@
+---
+# Anvil Command
+command_: true
+command: "anvil:Anvil Command:anvil.use"
+command_aliases: []
+
+# Messages
+no_item: "You cannot interact with the anvil with air in your hand!"
+repair_good: "You have just repaired your item for 5 xp level!"
+no_xp_rename: "You don't have enough xp to rename your item!"
+rename_good: "You have just renamed your item in {NAME}"
+no_repair_meta: "You can no longer repair this item!"
+no_xp_repair: "ou don't have enough xp for repair!"
+rename_null: "You must have given a name!"
+no_repair: "You cannot repair this item!"
+
+# Anvil
+xp_rename: 3
+xp_repair: 5
+
+# Forms
+main:
+  title: "AnvilUI"
+  content: "Choose what you want to do:"
+  rename: "Rename"
+  repair: "Repair"
+
+# Rename Form
+rename:
+  title: "AnvilUI"
+  content: "Rename item in hand:"
+  input: "Name"
+...

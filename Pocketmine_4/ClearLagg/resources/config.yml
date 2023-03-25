@@ -1,0 +1,8 @@
+---
+time: 300
+
+time_chat: [60, 30, 20, 10, 5, 3, 2, 1]
+
+msg: "§f[§9ClearLagg§f] Un clearlagg va être éffectuer dans {time} seconde(s) !"
+msg_: "§f[§9ClearLagg§f] Un clearlagg à été éffectuer, un total de {count} entités ont été supprimé !"
+...

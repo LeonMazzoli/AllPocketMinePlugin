@@ -1,0 +1,18 @@
+---
+# command:
+#   description: "DESCRIPTION"
+#   aliases: ["ALIASES", "ALIASES"...]
+#   effects: [ [ EFFECT_1_ID, EFFECT_1_DURATION_IN_SECOND, EFFECT_1_AMPLIFIER, EFFECT_1_PARTICLES ], [EFFECT_2...]... ]
+#   permission: "PERMISSION" !! OPTIONAL !!
+
+nightvision:
+  description: "Add NightVision"
+  aliases: ["nv"]
+  effects: [ [ 16, 9999999, 0, false ] ]
+
+speed:
+  description: "Add Speed"
+  aliases: []
+  effects: [ [ 1, 60, 3, false ] ]
+  permission: "speed.use"
+...
