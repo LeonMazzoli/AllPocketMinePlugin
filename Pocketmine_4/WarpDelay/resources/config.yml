@@ -1,0 +1,30 @@
+---
+delay: 10
+prefix: "§f[§9Warp§f] "
+no_perm: "{prefix}Vous n'avez pas la permission !"
+
+warp_cmd: "warp:Warp Command"
+warp_aliases: []
+warp_perm_tp: "tp.use"
+warp_msg_teleport: "{prefix}Vous avez été téléporté au warp !"
+warp_msg_list: "{prefix}Voici la liste de(s) warp(s): {warp}"
+warp_msg_cancel: "{prefix}La téléportation à été annulé !"
+warp_msg_cooldown: "{prefix}La téléportation sera faite dans {time} seconde(s)"
+
+delwarp_cmd: "delwarp:DelWarp Command:admin.warp"
+delwarp_aliases: []
+delwarp_good: "{prefix}Vous avez bien supprimer le warp !"
+delwarp_msg_no_exist: "{prefix}Le warp n'existe pas !"
+delwarp_on_warp: "{prefix}Vous devez indiquer le nom d'un warp !"
+
+setwarp_cmd: "setwarp:SetWarp Command:admin.warp"
+setwarp_aliases: []
+setwarp_good: "{prefix}Vous avez bien définie le warp !"
+setwarp_msg_exist: "{prefix}Le warp existe déja !"
+setwarp_on_warp: "{prefix}Vous devez indiquer le nom d'un warp !"
+
+form: true # true or false
+title: "Warp"
+content: "Choisissez le warp au quel vous voulez vous téléporté:"
+button: "-> {warp}"
+...

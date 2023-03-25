@@ -1,0 +1,18 @@
+---
+prefix: "§dTotem§f "
+
+no_perm: "{prefix}Vous n'avez pas la permission !"
+
+# Totem
+totem: ["totem", "", "totem.use"]
+totem_aliases: []
+totem_no_args: "{prefix}Vous devez indiquer §dstart§f ou §dstop§f !"
+totem_no_stop: "{prefix}Il n'y à pas de totem en cour !"
+totem_no_start: "{prefix}Il y à déja un totem en cour !"
+totem_pos: [100, 100, 100, world]
+totem_block: [1, 0]
+totem_start: "{prefix}Un event totem à commencé !"
+totem_stop: "{prefix}L'event totem à été annulé !"
+totem_finish: "{prefix}L'event totem est terminé, le vainceur est§d {player} §f!"
+totem_commands: ["give {player} obsidian"]
+...

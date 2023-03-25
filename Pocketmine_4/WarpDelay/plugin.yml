@@ -1,0 +1,10 @@
+name: WarpDelay
+version: 1.5
+api: 4.0.0
+main: Digueloulou12\WarpDelay
+author: Digueloulou12
+
+# New v1.5
+# - Form Possibility
+# - Null delay possibility
+# - New System Save

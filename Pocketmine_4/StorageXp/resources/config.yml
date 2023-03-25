@@ -1,0 +1,18 @@
+---
+# Storage
+id: 456
+
+# Form
+title: "Storage"
+content: "Choose option:"
+add: "Add Xp"
+remove: "Remove Xp"
+
+label: "Xp Add / Remove:"
+
+no_storage: "Xp storage no longer exists!"
+no_xp: "You don't have enough xp!"
+add_xp: "You added {xp} to xp storage!"
+no_remove: "There is not enough xp in the xp axis stock! There are only {xp}!"
+remove_xp: "You have recovered {xp} from exp storage!"
+...

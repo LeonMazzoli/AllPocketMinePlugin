@@ -1,0 +1,96 @@
+---
+prefix: "§f[§9Homes§f] "
+
+disabled-worlds: []
+
+home_no_world: "{prefix}Les homes ne sont pas activer dans ce monde !"
+tpa_no_world: "{prefix}Le Tpa n'est pas acitivé dans ce monde !"
+
+# Homes
+home_system: true
+home_cmd: "home:Home Command"
+home_aliases: []
+home_msg_teleport: "{prefix}Vous avez été téléporté à votre home !"
+home_msg_list: "{prefix}Voici la liste de vos home(s): {home}"
+
+sethome_cmd: "sethome:SetHome Command"
+sethome_aliases: []
+sethome_msg_good: "{prefix}Vous avez bien définie votre home !"
+sethome_msg_exist_home: "{prefix}Vous avez déja un home avec ce nom la !"
+sethome_msg_no_home: "{prefix}Vous devez indiquer le nom d'un home !"
+
+delhome_cmd: "delhome:DelHome Command"
+delhome_aliases: []
+delhome_msg_good: "{prefix}Vous avez bien supprimer votre home !"
+delhome_msg_no_exist_home: "{prefix}Vous n'avez pas de home avec ce nom là !"
+delhome_msg_no_home: "{prefix}Vous devez indiquer le nom d'un home !"
+
+adminhome_cmd: "adminhome:AdminHome Command:admin.home"
+adminhome_aliases: []
+adminhome_msg_no_player: "{prefix}Vous devez indiquer le nom d'un joueur !"
+adminhome_no_exist_player: "{prefix}Le joueur que vous avez indiquer n'existe pas !"
+adminhome_msg_list: "{prefix}Voici la liste de(s) home(s) de {player}: {home}"
+adminhome_msg_teleportation: "{prefix}Vous avez été téléporté au home !"
+
+admindelhome_cmd: "admindelhome:AdminDelHome Command:admin.home"
+admindelhome_aliases: []
+admindelhome_msg_no_player: "{prefix}Vous devez indiquer le nom d'un joueur !"
+admindelhome_no_exist_player: "{prefix}Le joueur que vous avez indiquer n'existe pas !"
+admindelhome_no_home: "{prefix}Vous devez indiquer le nom d'un home !"
+admindelhome_no_exist_home: "{prefix}Le joueur indiqué na pas de home avec ce nom là !"
+admindelhome_msg_good: "{prefix}Vous avez bien supprimé le home !"
+
+adminsethome_cmd: "adminsethome:AdminSetHome Command:admin.home"
+adminsethome_aliases: []
+adminsethome_msg_no_player: "{prefix}Vous devez indiquer le nom d'un joueur !"
+adminsethome_no_exist_player: "{prefix}Le joueur que vous avez indiquer n'existe pas !"
+adminsethome_no_home: "{prefix}Vous devez indiquer le nom d'un home !"
+adminsethome_exist_home: "{prefix}Le joueur indiqué à déja un home avec ce nom là !"
+adminsethome_msg_good: "{prefix}Vous avez bien définie le home !"
+
+# Warps
+warp_system: true
+warp_cmd: "warp:Warp Command"
+warp_aliases: []
+warp_msg_teleport: "{prefix}Vous avez été téléporté au warp !"
+warp_msg_list: "{prefix}Voici la liste de(s) warp(s): {warp}"
+
+delwarp_cmd: "delwarp:DelWarp Command:admin.warp"
+delwarp_aliases: []
+delwarp_good: "{prefix}Vous avez bien supprimer le warp !"
+delwarp_msg_no_exist: "{prefix}Le warp n'existe pas !"
+delwarp_on_warp: "{prefix}Vous devez indiquer le nom d'un warp !"
+
+setwarp_cmd: "setwarp:SetWarp Command:admin.warp"
+setwarp_aliases: []
+setwarp_good: "{prefix}Vous avez bien définie le warp !"
+setwarp_msg_exist: "{prefix}Le warp existe déja !"
+setwarp_on_warp: "{prefix}Vous devez indiquer le nom d'un warp !"
+
+# Tpa
+tpa_system: true
+tpa_cmd: "tpa:Tpa Command"
+tpa_aliases: []
+tpa_no_player: "{prefix}Vous devez indiquer le nom d'un joueur !"
+tpa_no_online_player: "{prefix}Le joueur que vous avez indiqué n'est pas connecté !"
+tpa_msg_sender: "{prefix}Vous avez envoyé une demande de téléportation au joueur {player} !"
+tpa_msg_player: "{prefix}Vous avez reçu une demande de téléportation de {player} !"
+
+tpahere_cmd: "tpahere:TpaHere Command"
+tpahere_aliases: []
+tpahere_no_player: "{prefix}Vous devez indiquer un joueur !"
+trahere_no_online_player: "{prefix}Le joueur indiqué n'est pas connecté !"
+tpahere_msg_sender: "{prefix}Vous avez envoyé une demande de téléportaion au joueur {player} !"
+tpahere_msg_player: "{prefix}Le joueur {player} veut ce téléporté à vous !"
+
+tpaccept_cmd: "tpaccept:TpAccept Command"
+tpaccept_aliases: []
+tpaccept_no_online: "{prefix}Le joueur n'est plus en ligne !"
+tpaccept_expired: "{prefix}La demande de téléportation à expiré !"
+tpaccept_no_invitation: "{prefix}Vous n'avez pas reçu de demande de téléportation !"
+
+tpa_time_invitation: 30
+
+# Message
+no_perm: "{prefix}Vous n'avez pas la permission d'utiliser cette commande !"
+...

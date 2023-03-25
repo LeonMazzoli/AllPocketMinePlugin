@@ -1,0 +1,38 @@
+---
+prefix: "§f[§9Tpa§f] "
+
+# Commands
+# command: "NAME:DESCRIPTION:PERMISSION"
+# command_aliases: [ ALIASES ]
+
+# Tpa
+tpa_system: true
+tpa_cmd: "tpa:Tpa Command"
+tpa_aliases: []
+tpa_no_player: "{prefix}You must indicate the name of a player!"
+tpa_no_online_player: "{prefix}The player you specified is offline!"
+tpa_msg_sender: "{prefix}You sent a teleport request to player {player}!"
+tpa_msg_player: "{prefix}You received a teleport request from {player}!"
+tpa_no_teleportation: "{prefix}The teleport has been cancelled!"
+tpa_cooldown: "{prefix}Teleport in {time} second(s)!"
+tpa_invincibility: 5
+tpa_delay: 10
+
+tpahere_cmd: "tpahere:TpaHere Command"
+tpahere_aliases: []
+tpahere_no_player: "{prefix}You must specify a player!"
+trahere_no_online_player: "{prefix}The indicated player is offline!"
+tpahere_msg_sender: "{prefix}You sent a teleport request to player {player}!"
+tpahere_msg_player: "{prefix}Player {player} wants this teleported to you!"
+
+tpaccept_cmd: "tpaccept:TpAccept Command"
+tpaccept_aliases: []
+tpaccept_no_online: "{prefix}The player is no longer online!"
+tpaccept_expired: "{prefix}Teleport request timed out!"
+tpaccept_no_invitation: "{prefix}You haven't received a teleport request!"
+
+tpa_time_invitation: 30
+
+# Message
+no_perm: "{prefix}You do not have permission to use this command!"
+...

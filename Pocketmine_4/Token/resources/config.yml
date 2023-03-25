@@ -1,0 +1,30 @@
+---
+# [COMMAND, DESCRIPTION, PERMISSION]
+tokensee: ["tokensee", "TokenSee Command"]
+tokensee_aliases: ["tsee"]
+tokensee_msg: "The player {player} has {token} token(s) !"
+
+tokenadd: ["tokenadd", "TokenAdd Command", "token.use"]
+tokenadd_aliases: ["tadd"]
+tokenadd_msg: "You have added {token} token(s) to {player} !"
+
+tokenremove: ["tokenremove", "TokenRemove Command", "token.use"]
+tokenremove_aliases: ["tremove"]
+tokenremove_msg: "You have removed {token} token(s) to {player} !"
+
+tokenmenu: ["tokenmenu", "TokenMenu Command"]
+tokenmenu_aliases: ["tmenu"]
+
+default_token: 0
+
+no_perm: "Yo do not have a permission !"
+no_args_player: "You must indicate a player !"
+no_exist_player: "The indicated player not exist !"
+no_args_token: "You must indicate a token !"
+no_numeric_token: "The quantity of the token must be numeric !"
+no_has_just_token_player: "The player does not have enough tokens !"
+
+title: "Token"
+content: "My Token: {token}\n\n- 10 Tokens -> 10€\n- 20 Tokens -> 15€\n\nFor any purchase, please contact a staff"
+button: "Envoyer"
+...

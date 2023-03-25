@@ -1,0 +1,16 @@
+---
+prefix: "§eWelcome§f "
+
+no_player: "{prefix}The command must be executed in game!"
+no_new_player: "{prefix}There is no new player!"
+no_time: "{prefix}Time is up !"
+welcome_good: "{prefix}You have welcomed the player §e{player}§f !"
+welcome_server: "{prefix}§e{player}§f welcomes player §f{new_player}§f!"
+no_welcome_you: "{prefix}You can't welcome yourself!"
+already_welcome: "{prefix}You have already welcomed!"
+
+command: ["welcome", "WelcomeCommand"]
+command_aliases: []
+
+time: 60
+...

@@ -1,0 +1,86 @@
+---
+time_zone: "Europe/Paris"
+
+# Monday -> Mon
+# Tuesday -> Tue
+# Wednesday -> Wed
+# Thursday -> Thu
+# Friday -> Fri
+# Saturday -> Sat
+# Sunday -> Sun
+day: "Thu"
+
+# hour: "HOUR:MINUTE"
+hour: "22:00"
+
+break_furnace: true
+
+admin_permission: "uhc.admin"
+
+# waiting_pos: [ X, Y, Z, WORLD ]
+waiting_pos: [ 0, 70, 0, world ]
+
+min_time: [30, 25, 20, 15, 10, 5, 3, 2, 1]
+minage_time: 30 # minute(s)
+pvp_time: 30 # minute(s)
+max_player: 20
+waiting_time: 60 # second(s)
+min_player: 2
+
+game_world: world
+random_x_min: -100
+random_x_max: 100
+random_z_min: -100
+random_z_max: 100
+
+# AirDrop
+time_airdrop: 10
+number_airdrop: 5
+
+geometry_name: "geometry.unknown"
+geometry_file: "airdrop.geo.json"
+airdrop_skin_file: "airdrop.png"
+
+airdrop_items:
+  - [276, 0, 1]
+
+# Command
+command: [ "ultrahardcore", "UltraHardCore Command" ]
+command_aliases:
+  - uhc
+
+# Items
+items: # [ID, META, COUNT]
+  - [1, 0, 64]
+
+# Messages
+prefix: "§eUHC§f "
+no_player: "{prefix}La commande doit être executer en jeu !"
+no_perm: "{prefix}Vous n'avez pas la permission !"
+already_game: "{prefix}Il y a déja une partie en cour !"
+no_game: "{prefix}Il n'y a pas de partie en cour !"
+stop_game: "{prefix}Vous avez arreter la partie !"
+start_game: "{prefix}Vous avez lancé une partie !"
+no_base_args: "{prefix}Vous devez indiquer §ejoin §f|§e leave §f| §estart§f | §estop§f !"
+no_in_game: "{prefix}Vous ne faite pas partie de la partie !"
+leave_game: "{prefix}Vous avez quitter la partie !"
+no_join: "{prefix}Vous ne pouvez plus rejoindre la partie !"
+join_game: "{prefix}Vous avez rejoint la partie !"
+time_mine: "{prefix}Il reste §e{time} §fminute(s) avant le pvp !"
+
+server_start: "{prefix}Une partie d'UHC à commencé, faite §e/uhc join§f pour rejoindre la partie !"
+game_stop: "{prefix}La partie à été arreter !"
+game_start: "{prefix}Le temps d'attente est terminé, la partie commence !"
+no_good_count: "{prefix}Le temps d'attente recommence puisqu'il n'y a pas asser de joueurs dans la partie !"
+player_leave: "{prefix}Le joueur §e{player}§f a quitté la partie !"
+finish_game: "{prefix}La partie est finie ! Le vainqueur est§e {winner} §f!"
+
+alert_waiting_time: [60, 45, 30, 15, 10, 5, 3, 2, 1]
+time_popup: "{prefix}La partie commence dans §e{time}§f seconde(s) !"
+
+alert_mine_time: [30, 15, 10, 5, 3, 2, 1]
+mine_popup: "{prefix}Le pvp s'active dans §e{time}§f minute(s) !"
+
+alert_pvp_time: [30, 15, 10, 5, 3, 2, 1]
+pvp_popup: "{prefix}La partie se terminera dans §e{time} §fminute(s) !"
+...
