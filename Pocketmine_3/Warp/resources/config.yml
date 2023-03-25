@@ -1,0 +1,24 @@
+---
+prefix: "§f[§9Warp§f] "
+
+# Warp
+warp_cmd: "warp:Warp Command"
+warp_aliases: []
+warp_msg_teleport: "{prefix}Vous avez été téléporté au warp !"
+warp_msg_list: "{prefix}Voici la liste de(s) warp(s): {warp}"
+
+delwarp_cmd: "delwarp:DelWarp Command:admin.warp"
+delwarp_aliases: []
+delwarp_good: "{prefix}Vous avez bien supprimer le warp !"
+delwarp_msg_no_exist: "{prefix}Le warp n'existe pas !"
+delwarp_on_warp: "{prefix}Vous devez indiquer le nom d'un warp !"
+
+setwarp_cmd: "setwarp:SetWarp Command:admin.warp"
+setwarp_aliases: []
+setwarp_good: "{prefix}Vous avez bien définie le warp !"
+setwarp_msg_exist: "{prefix}Le warp existe déja !"
+setwarp_on_warp: "{prefix}Vous devez indiquer le nom d'un warp !"
+
+# Message
+no_perm: "{prefix}Vous n'avez pas la permission d'utiliser cette commande !"
+...

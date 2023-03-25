@@ -1,0 +1,136 @@
+---
+version: 3.5
+
+noperm: "Vous n'avez pas la permission d'utiliser cette commande !"
+
+# Command Sanction
+sanc:
+  desc: "Affiche les sanctions d'un joueur"
+  perm: "sanction.use"
+  noargs: "Vous devez indique un joueur !"
+  noplayer: "Le joueur sélectionné n'existe pas !"
+  form:
+    title: "Sanction"
+    content: "§e{player}§f\nKick: {kick}\nMute: {mute}\nBan: {ban}\nBanip: {banip}"
+    button: "§l§cRetour"
+    close: "Vous venez de fermer l'interface des sanctions !"
+
+
+# Command TBan
+tban:
+  desc: "Ban un joueur temporairement"
+  perm: "tban.use"
+  nopl: "La commande doit être executer en jeu !"
+  nopla: "Vous devez indiquer un joueur !"
+  time: "Vous devez indiquer un temps correct !"
+  reason: "Vous devez indiquer une raison !"
+  good: "{player} a été banni !"
+  close: "Vous avez été banni par {player} pendant {time} pour {reason} !"
+  join: "Vous êtes encore banni pendant {day} jour/s et {hour} heure/s !"
+  embed:
+    title: "TBAN"
+    desc: "{sender} was banned by {player}: {time}, {reason}"
+
+# Command Unban
+unban:
+  desc: "Unban un joueur"
+  perm: "unban.use"
+  noargs: "Vous devez indiquer ip | perm | temp !"
+  unbanipgood: "Vous venez d'unban l'ip {ip} !"
+  noargs2: "Vous devez indique soit une ip, soit le nom d'un joueur !"
+  ipd: "L'ip {ip} vient d'être unban par {player} !"
+  title: "UNBAN"
+  nobanip: "L'ip indiquer n'est pas banni !"
+  noban: "Le joueur indiqué n'est pas banni !"
+  nobant: "Le joueur indiqué n'est pas banni temporairement !"
+  nobanp: "Le joueur indiqué n'est pas banni en permanance !"
+  good: "Vous venez d'unban le joueur {player} !"
+  permd: "Le joueur {player} vient d'unban {sender} !"
+  tempd: "Le joueur {player} vient d'unban {sender} !"
+
+# Command Mute
+mute:
+  desc: "Mute un joueur"
+  perm: "mute.use"
+  notime: "Vous devez indiquer un temps !"
+  numeric: "Vous devez indiquer un temps en chiffre !"
+  player: "Vous devez indiquer un joueur !"
+  noplayer: "Le joueur indiqué na pas été trouvé !"
+  al: "Le joueur indiqué est déja mute !"
+  plm: "Vous venez de mute {player} pendant {time} minute/s !"
+  sem: "Vous venez d'être mute par {player} pendant {time} minute/s !"
+  mess: "Vous etes encore mute !"
+  noreason: "Vous devez indiquer une raison !"
+  embed:
+    title: "Mute"
+    desc: "{sender} was muted by {player}: {time}"
+
+command:
+  - /msg
+  - /r
+  - /tell
+  - /mail
+
+# Command Banip
+banip:
+  desc: "Ban une ip"
+  perm: "banip.use"
+  noip: "Vous devez indiquer une ip !"
+  close: "Votre ip a été banni !"
+  join: "Votre ip est banni !"
+  goodpl: "Vous venez de banni l'ip de {player} !"
+  ipn: "L'ip indiquer doit être en chiffre !"
+  ipl: "Cette ip est déja banni !"
+  ipg: "Vous venez de banni l'ip {ip} !"
+  noreason: "Vous devez indiquer une raison !"
+  embed:
+    title: "BAN-IP"
+    desc: "{ip} was banned by {player}"
+
+# Command Unmute
+unmute:
+  desc: "Unmute un joueur"
+  perm: "unmute.use"
+  nopl: "Vous devez indiqué un joueur !"
+  noplayer: "Le joueur indiqué na pas été trouvé !"
+  nom: "Le joueur indiqué n'est pas mute !"
+  mess: "Vous venez d'unmute {player} !"
+  messa: "Vous venez d'être unmute par {player} !"
+  embed:
+    title: "UNMUTE"
+    desc: "{sender} was unmuted by {player}"
+
+
+# Command Kick
+kick:
+  desc: "Kick un joueur"
+  perm: "kick.use"
+  noargs: "La commande doit être utilisé de cette façcon: /kick <player> <reason>"
+  playernull: "Le joueur indiqué na pas été trouver !"
+  kick: "Vous avez été kick par {player} pour {reason} !"
+  good: "Venez venez de kick {player} pour {reason} !"
+  embed:
+    title: "Kick"
+    desc: "{sender} was banned by {player}: {reason}"
+
+# Command Ban
+ban:
+  desc: "Ban un joueur"
+  perm: "ban.use"
+  nopl: "Vous devez indiquer un joueur !"
+  join: "Vous etes banni !"
+  nore: "Vous devez indiquer une raison !"
+  al: "Le joueur indiqué est déja ban !"
+  close: "Vous avez été banni par {player} pour {reason} !"
+  good: "Vous venez de bannir {player} pour {reason}"
+  embed:
+    title: "BAN"
+    desc: "{sender} was banned by {player}: {reason}"
+
+# discord
+discord: false
+web: ""
+# EMBED OR MESSAGE
+type: embed
+color: "16776960"
+...

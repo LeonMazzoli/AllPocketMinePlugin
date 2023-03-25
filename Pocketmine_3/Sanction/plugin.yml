@@ -1,0 +1,5 @@
+name: Sanction
+version: 3.5.0
+api: 3.0.0
+main: Sanction\SanctionMain
+author: Digueloulou12

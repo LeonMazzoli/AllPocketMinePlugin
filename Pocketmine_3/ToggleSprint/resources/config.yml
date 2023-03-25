@@ -1,0 +1,6 @@
+---
+toggle.on: "Votre togglesprint vient d'être activé !"
+toggle.off: "Votre togglesprint vient d'être déactivé !"
+toggle.args: "Vous devez indiquer 'on' ou 'off' !"
+toggle.console: "Vous devez executer la commande en jeu !"
+...

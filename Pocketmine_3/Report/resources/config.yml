@@ -1,0 +1,62 @@
+---
+version: 1
+
+# Command
+# "COMMAND:DESCRIPTION:PERMISSION"
+report: "report:Ouvre l'interface de report"
+reportadmin: "reportadmin:Ouvre l'interface admin des reports:reportadmin.use"
+
+# Message
+noplayer: "La commande doit être executer en jeu !"
+noperm: "Vous n'avez pas la permission !"
+
+no_title: "Vous devez indiquer un titre à votre report !"
+no_desc: "Vous devez indiquer une description à votre report !"
+reportal: "Un report existe déja avec ce titre !"
+
+# Alerts
+alert: true
+permission: "alert.report"
+message: "Le joueur {name} vient de faire un report !"
+
+# Alert Player Report
+alerts: true
+messager: "Vous avez été report par {player}"
+
+# Report Form
+title: "Report"
+label: "Remplissez toutes les informations indiqué pour validée votre report !"
+titler: "Titre"
+player: "Joueur"
+description: "Description"
+
+# Report Admin Form
+titlea: "Report Admin"
+content: "Choisissez un report pour le voir en détail !"
+
+# Report Info Form
+titlere: "Report Admin Info"
+contentr: "Titre: {title}\nAuteur: {author}\nJoueur: {player}\nDescription {desc}"
+
+teleportation: "Téléportation"
+tp_good: "Vous venez de vous téléporté au joueur qui a été report !"
+player_offline: "Le joueur report n'est pas connecté !"
+
+del: "Supprimer"
+report_del: "Vous venez de supprimer le report !"
+
+# Discord
+discord: false
+webhook: ""
+# EMBED OR MESSAGE
+type: "embed"
+
+# Embed
+color: "16776960"
+title_embed: "Reports"
+content_embed: "Un nouveau report est apparue !!\nAuteur: {player}\nJoueur: {sender}\nDescription: {desc}"
+content_embed_del: "Le joueur {player} vient de supprimer le report {report}"
+
+messaged: "Un nouveau report est apparue !!\nAuteur: {player}\nJoueur: {sender}\nDescription: {desc}"
+messagea: "Le joueur {player} vient de supprimer le report {report}"
+...

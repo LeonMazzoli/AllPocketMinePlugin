@@ -1,0 +1,9 @@
+name: ToggleSprint
+version: 0.1
+api: 3.0.0
+main: Toggle\Sprint
+author: Digueloulou12
+
+commands:
+  togglesprint:
+    description: "ToggleSprint"

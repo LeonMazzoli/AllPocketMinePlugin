@@ -1,0 +1,58 @@
+---
+# Command
+# "COMMAND:DESCRIPTION:PERMISSION"
+command: "duel:Duel Command"
+command_aliases: []
+
+# Position
+# "X:Y:Z:LEVEL_NAME"
+pos1: [0, 0, 0, "world"]
+pos2: [0, 0, 0, "world"]
+
+# Temps en seconde
+invitation_expire: 30
+
+# Form
+title: "Duel"
+dropdown: "Joueur"
+
+content: "Choisissez le kit que vous voulez:"
+label: "Choisissez le montant que vous voulez pariez:"
+slider: "Montant"
+min: 1000
+max: 5000
+
+# Message
+noplayer: "La commande doit être executer en jeu !"
+already: "L'arène est déja occupé !"
+noinvit: "Vous n'avez pas d'invitation !"
+expiration: "Votre invation a expiré !"
+offline: "Le joueur qui vous a invité est hors ligne !"
+offline2: "Le joueur sélectionné est hors ligne !"
+no: "Vous ne pouvez pas jouer contre vous même !"
+invite: "Vous venez d'inviter le joueur {player} en duel !"
+start: "Le duel commence !"
+stop: "Le combat est terminé car l'un d'entre vous à abandonné !"
+invitation: "Le joueur {player} vous invite a faire un duel contre lui ! Vous pouvez faire /duel accept pour accepter son duel !"
+win: "Le joueur {player} vient de remporter le duel !"
+no_money: "Vous n'avez pas assez de money !"
+no_money_sender: "Le joueur contre qui vous voulez faire le duel na pas assez de money !"
+
+command_win: "givemoney {player} 3"
+
+teleportation_commands:
+  - hub
+  - spawn
+  - lobby
+  - tpa
+
+# ID_META:COUNT:NAME:ENCHANTMENT_ID:ENCHANTMENT_LEVEL"
+kit:
+  joueur:
+    button: "-> Joueur"
+    helmet: "306:0"
+    chestplate: "307:0"
+    leggings: "308:0"
+    boots: "309:0"
+    items: []
+...
