@@ -1,0 +1,5 @@
+name: TheHopeServer
+version: 1.0.0
+api: 3.0.0
+main: THS\Main
+author: Digueloulou12
