@@ -1,0 +1,32 @@
+---
+prefix: "§f[§9Shop§f] "
+
+# "COMMAND:DESCRIPTION:PERMISSION"
+command: "shop:ShopCommand"
+command_aliases: []
+
+inventory_full: "{prefix}Vous n'avez pas assez de place dans votre inventaire !"
+no_content: "{prefix}Vous n'avez pas les items demandé dans votre inventaire !"
+negative_value: "{prefix}La quantité doit être supérieur à 0 !"
+shop_item: "{prefix}Vous avez acheté {count}x {name} pour {money}$ !"
+sell_item: "{prefix}Vous avez vendu {count}x {name} pour {money}$ !"
+is_numeric: "{prefix}La quantité doit être numéric !"
+no_money: "{prefix}Vous n'avez pas assez de money !"
+
+# MoneyAPI | EconomyAPI
+money: MoneyAPI
+
+# "ID:META:NAME:TEXTURES:PRICE_SHOP:PRICE_SELL"
+title: "Shop"
+label: "Choisissez si vous voulez acheter ou vendre le produit puis veuillez indiquer une quantité:\nLe prix de d'achat est de {shop}$/u\nLe prix de vente est de {sell}$/u\nVous avez {count}x {name} dans votre inventaire !"
+dropdown: "Type:"
+dropdown_array: ["Achat", "Vente"]
+input: "Quantité:"
+shop:
+  block:
+    category: true
+    utils: ["1:0:Test 6:x:10:0"]
+    deco: ["49:0:Test 4:x:10:0"]
+  ores: ["1:0:Test 6:x:10:0"]
+  test: ["1:0:Test 1:textures/blocks/stone:0:10", "2:0:Test 2:textures/blocks/obsidian:10:0", "3:0:Test 3:textures/blocks/diamond:10:10"]
+...

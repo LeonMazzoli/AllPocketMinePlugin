@@ -1,0 +1,79 @@
+---
+prefix: "§f[§9Staff§f] "
+
+disable_commands:
+  - kick
+  - ban
+  - pardon
+
+kick: ["kick", "Kick Command", "kick.use"]
+kick_aliases: []
+kick_discord: "Player {player} was kicked by {moderator} for {reason}!"
+kick_kick: "{prefix}You were kicked by §9 {player} §ffor: §9{reason}"
+kick_sender: "{prefix}You kicked player§9 {player}§f for: §9{reason}"
+
+freeze: ["freeze", "Freeze Command", "freeze.use"]
+freeze_aliases: []
+freeze_discord: "The player {player} has been frozen by {moderator}!"
+freeze_freeze: "{prefix}The indicated player is already frozen!"
+freeze_sender: "{prefix}You have frozen player§9 {player} §f!"
+freeze_player: "{prefix}You have been frozen by§9 {player} §f!"
+
+unfreeze: ["unfreeze", "UnFreeze Command", "freeze.use"]
+unfreeze_aliases: []
+unfreeze_discord: "Player {player} has been unfreezed by {moderator}!"
+unfreeze_no_freeze: "{prefix}The indicated player is not freeze!"
+unfreeze_sender: "{prefix}You have unfreeze player§9 {player} §f!"
+unfreeze_player: "{prefix}You have been unfreezed by §9{player} §f!"
+
+mute: ["mute", "Mute Command", "mute.use"]
+mute_aliases: []
+mute_discord: "Player {player} has been muted by {moderator} for {reason} for {time}!"
+mute_player: "{prefix}You were muted by§9 {player}§f for §9{time} §ffor: §9{reason}"
+mute_sender: "{prefix}You have muted player§9 {player} §fduring§9 {time} §ffor: §9{reason}"
+mute_already: "{prefix}The indicated player is already muted!"
+mute_all: "{prefix}The player§9 {player} §fhas been muted by §9{moderator}§f for §9{reason}§f for §9{time}§f!"
+
+unmute: ["unmute", "Unmute Command", "mute.use"]
+unmute_aliases: []
+unmute_discord: "Player {player} has been unmuted by {moderator}!"
+unmute_no_mute: "{prefix}The indicated player is not muted!"
+unmute_sender: "{prefix}You have unmuted player§9 {player} §f!"
+unmute_player: "{prefix}You have been unmuted by§9 {player} §f!"
+
+mutelist: ["mutelist", "MuteList Command", "mute.use"]
+mutelist_aliases: ["ml", "mlist"]
+mutelist_msg: "{prefix}Here is the list of mute player(s): {mutes}"
+
+ban: ["ban", "Ban Command", "ban.use"]
+ban_aliases: []
+ban_discord: "Player {player} has been banned by {moderator} for {reason} for {time}!"
+ban_kick: "{prefix}You have been banned by§9 {player} §ffor §9 {reason} §f!"
+ban_already: "{prefix}The indicated player is already banned!"
+ban_sender: "{prefix}You banned player§9 {player}§f for§9 {time}§f for§9 {reason} §f!"
+ban_all: "{prefix}The player§9 {player} §fhas been banned by §9{moderator}§f for §9{reason}§f for §9{time}§f!"
+ban_join: "{prefix}You are still banned!\nThe staff that banned you is §9{staff} §f!\nYou have been banned for§9 {reason} §f!\nYou are still banned for§9 {day} §fday(s ), §9{hour} §fhour(s), §9{minute} §fminute(s) and §9{second} §fsecond(s)!"
+
+unban: ["unban", "UnBan Command", "ban.use"]
+unban_aliases: []
+unban_discord: "Player {player} has been unbanned by {moderator}!"
+unban_no_ban: "{prefix}The indicated player is not banned!"
+unban_sender: "{prefix}You have unbanned player§9 {player} §f!"
+
+banlist: ["banlist", "BanList Command", "ban.use"]
+banlist_aliases: ["bl", "blist"]
+banlist_msg: "{prefix}Here is the list of banned player(s): {bans}"
+
+# Messages
+no_valid_args_time: "{prefix}You must specify a valid time!"
+no_args_time: "{prefix}You must specify a time!"
+no_args_reason: "{prefix}You must specify a reason!"
+no_args_player: "{prefix}You must specify a player!"
+no_online_player: "{prefix}The indicated player is offline!"
+no_perm: "{prefix}You don't have permission §9{perm}§f!"
+no_chat: "{prefix}You are still mutated for §9 {day}§f jour(s), §9{hour} §fday(s), §9{minute} §fminute(s) and §9{second} §fsecond(s)!"
+
+# Discord Integration
+discord_integration: false
+webhook: ""
+...

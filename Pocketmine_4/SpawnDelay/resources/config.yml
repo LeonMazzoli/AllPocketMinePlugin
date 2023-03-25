@@ -1,0 +1,12 @@
+---
+# "COMMAND:DESCRIPTION:PERMISSION"
+command: "spawn:Spawn Command"
+command_aliases: []
+
+delay: 10
+
+prefix: "§f[§9Spawn§f] "
+cancel: "{prefix}La téléportation à été annulé !"
+cooldown: "{prefix}Vous serez téléporté dans §9{time}§f seconde(s) !"
+teleportation: "{prefix}Vous avez été téléporté au spawn !"
+...

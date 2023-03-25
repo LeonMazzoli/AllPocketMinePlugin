@@ -1,0 +1,5 @@
+name: SpawnerBlock
+version: 1.1
+api: 4.0.0
+main: Digueloulou12\Spawner\Spawner
+author: Digueloulou12

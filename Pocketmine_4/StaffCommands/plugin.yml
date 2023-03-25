@@ -1,0 +1,9 @@
+name: StaffCommands
+version: 1.5
+api: 4.0.0
+main: Digueloulou12\Staff
+author: Digueloulou12
+
+# New Version 1.5 :
+# - Mute / Ban list
+# - Discord Integration

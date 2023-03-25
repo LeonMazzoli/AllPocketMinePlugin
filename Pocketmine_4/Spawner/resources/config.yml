@@ -1,0 +1,11 @@
+---
+prefix: "§eSpawner§f "
+
+spawn_time: 30
+
+add_egg: "{prefix}Vous avez ajouté un oeuf dans le spawner !"
+spawner_full: "{prefix}Le spawner possède dèjà un oeuf !"
+spawner_info: "{prefix}Type: §e{type}\n{prefix}Prochain spawn: §e{time}§f seconde(s)"
+
+get_spawner: true
+...

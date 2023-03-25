@@ -1,0 +1,5 @@
+name: RepairCommand
+version: 2
+api: 4.0.0
+main: Digueloulou12\Repair
+author: Digueloulou12

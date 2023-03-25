@@ -1,0 +1,64 @@
+---
+# DO NOT TOUCH
+version: 1
+
+# Command
+# "COMMAND:DESCRIPTION:PERMISSION"
+command: "staff:StaffMod Command:staffmod.use"
+command_aliases: []
+
+prefix: "§f[§9StaffMod§f] "
+
+# Command Message
+noperm: "Vous n'avez pas la permission §9{perm}§f !"
+useig: "La commande doit être executer en jeu !"
+staff_on: "Vous venez de passé en staffmod !"
+staff_off: "Vous venez de quitter le staffmod !"
+
+# Staff Item
+# "ID:META:SLOT:NAME"
+item: "399:0:4:§r§9Staff"
+
+# Form
+title: "§f[§9StaffMod§f]"
+backbutton: "§l§cBack"
+
+content: "§9->§f Choisissez l'action que vous voulez faire sur le joueur§9 {player}§f:"
+
+# Tp
+content_tp: "§9->§f Choisissez le joueur au quel vous voulez vous téléporté:"
+button_random: "§9->§f Téléportation aléatoire"
+buttontp: "§9-> §f{player}"
+tpgood: "Vous venez de vous téléporté sur le joueur §9{player}§f !"
+
+# Kick
+button_kick: "§9->§f Kick"
+kickmsg: "Vous venez de kick le joueur§9 {player} §f!"
+
+# Kill
+button_kill: "§9->§f Kill"
+killmsg: "Vous venez de kill le joueur§9 {player} §f!"
+
+# Info
+button_info: "§9->§f Info"
+content_info: "§9->§f Voici les informations de§9 {name} §f:\n- Nom: §9{name}§f\n- NomCustom: §9{customname}§f\n- Ip: §9{ip}§f\n- Port: §9{port}§f\n- Gamemode: §9{gamemode}§f\n- Position: x:§9{x} §fy:§9{y} §fz: §9{z} §fMonde: §9{world}§f\n- Ping: §9{ping}§f\n- Xp Level: §9{xp}§f\n- Xuid: §9{xuid}"
+
+# Inventory
+button_inv: "§9->§f Inventaire"
+content_inv: "§9->§f Choisissez l'inventaire du joueur que vous voulez voir:"
+button_inv_ender: "§fSlot: §9{slot}\n{count}§fx §9{item}"
+button_armor: "§9->§f {item}"
+armor: "§9-> §fArmor"
+inventory: "§9->§f Inventory"
+enderchest: "§9->§f EnderChest"
+noplace: "Vous n'avez pas la place dans votre inventaire !"
+
+# Freeze
+button_freeze: "§9->§f Freeze §9/§f Unfreeze"
+freeze_on: "Vous venez de freeze le joueur§9 {player} §f!"
+freeze_off: "Vous venez d'unfreeze le joueur§9 {player} §f!"
+
+# Divers
+noplayer: "Le joueur §9{player}§f n'est pas connecté !"
+noplayerr: "Le joueur sélectionné n'est plus connecté !"
+...

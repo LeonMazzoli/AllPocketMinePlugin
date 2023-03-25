@@ -1,0 +1,24 @@
+---
+# Commands
+reward: ["reward"]
+top: ["topday", "The top day"]
+
+# Form
+title: "Reward"
+content: "You have {day} day(s) !"
+button: "Withdraw"
+
+# Messages
+already: "You have already collected this loot !"
+collected: "You have collected your loot of day {day} !"
+
+title_top: "Top 10  | Day"
+top_msg: "#{place} | {name} -> {day} day(s)"
+
+time: "Europe/Paris"
+
+day:
+  - ["item:49-0-64", "command:server-addmoney {player} 10"] # Day 1
+  - ["command:server-give {player} obsidian 64"] # Day 2
+  - ["command:player-hub"] # Day 3
+...
