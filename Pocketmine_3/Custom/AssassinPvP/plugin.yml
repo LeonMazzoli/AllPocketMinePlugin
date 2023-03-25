@@ -1,0 +1,5 @@
+name: AssassinPvP
+version: 1.0
+api: 3.0.0
+main: Assassin\Main
+author: Digueloulou12

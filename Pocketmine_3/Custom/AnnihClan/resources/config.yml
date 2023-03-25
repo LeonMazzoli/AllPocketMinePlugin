@@ -1,0 +1,22 @@
+---
+version: 1
+
+# Command
+# "COMMAND:DESCRIPTION:PERMISSION"
+command: "clan:Clan Command"
+command_aliases:
+  - "c"
+
+# Message
+no_player: "§cLa commande doit être executer en jeu !"
+noargs: "§cVous devez indiquer une action !"
+nocommand: "§cL'action demandé n'existe pas !"
+noinfo: "§cVous devez indiquer le nom d'un clan !"
+al: "§ceLe clan indiqué existé déja !"
+creategood: "Vous venez de créé le clan {clan} !"
+noperm: "§cVous n'avez pas la permission d'utiliser cette commande !"
+noex: "§cLe clan indiqué n'existe pas !"
+gooddel: "Vous avez bien supprimé le clan {clan} !"
+join: "Vous venez de rejoindre le clan {clan} !"
+alclan: "Vous etes déja dans un clan !"
+...

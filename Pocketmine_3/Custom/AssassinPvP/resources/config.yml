@@ -1,0 +1,33 @@
+---
+connexionp: "§f{player} vient de se connecter au serveur pour la première fois !"
+connexion: "§f{player} vient de se connecter au serveur"
+
+x: 991
+y: 8
+z: 964
+
+world: "Lobby"
+
+
+ip: "assassin-mc.fr"
+port: 19132
+
+good: "§fVous venez de transferer§a {player} §fsur le lobby !"
+noplayer: "§fLe joueur indiqué n'est pas connecté !"
+noperm: "§fVous n'avez pas la permission de transferer un joueur sur le lobby !"
+console: "§fLa commande doit être executer en jeu !"
+
+consoles: true
+
+spy.on: "§fVous venez de passé en mode espion !"
+spy.off: "§fVous venez de quitter le mode espion !"
+noperms: "§fVous n'avez pas la permission d'utiliser cette commande !"
+consolem: "§fLa commande doit être executer en jeu !"
+
+toggle.on: "§fVotre togglesprint vient d'être activé !"
+toggle.off: "§fVotre togglesprint vient d'être désactivé !"
+toggle.args: "§fVous devez indiquer 'on' ou 'off' !"
+toggle.console: "§fVous devez executer la commande en jeu !"
+
+kb: 0.35
+...

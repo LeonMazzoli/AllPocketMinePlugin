@@ -1,0 +1,9 @@
+name: Vote
+version: 1.0
+api: 3.0.0
+main: Vote\VoteMain
+author: Digueloulou12
+
+commands:
+  vote:
+    description: "Récupère ta récompense de vote"

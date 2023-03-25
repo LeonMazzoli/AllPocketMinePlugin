@@ -1,0 +1,5 @@
+name: AdminMenu
+version: 3.0
+api: 3.0.0
+main: Admin\Menu
+author: Digueloulou12

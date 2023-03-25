@@ -1,0 +1,66 @@
+---
+version: 3
+
+# Command
+# "COMMAND:DESCRIPTION:PERMISSION"
+command: "adminmenu:Staff:adminmenu.use"
+
+# Item
+# "ID:META:SLOT:NAME"
+item: "399:0:4:Staff"
+
+# Message
+noperm: "Vous n'avez pas la permission !"
+console: "La commande doit être executer en jeu !"
+randomtp: "Vous avez été téléporté au joueur {player} !"
+staffmod_on: "Vous venez de passez en mode staff !"
+staffmod_off: "Vous venez de quitter le mode staff !"
+
+# Message Form
+pingmsg: "Le joueur {player} est à {ping} ms !"
+freezeon: "Vous venez de freeze le joueur {player}"
+freezeoff: "Vous venez d'unfreeze le joueur {player}"
+playerfreezeon: "Le joueur {player} vient de vous freeze !"
+playerfreezeoff: "Le joueur {player} vient de vous unfreeze !"
+
+
+
+
+
+
+# Téléportation
+titletp: "Téléportation"
+contenttp: "Choisissez le joueur au quel vous voulez vous téléporté:"
+tpgood: "Vous venez de vous téléporté !"
+tpno: "Vous ne pouvez pas vous téléporté a cette personne !"
+
+# Form Player
+titlepl: "AdminMenu Player"
+contentpl: "Choisissez une action a executer sur un joueur:"
+ping: "Ping"
+freeze: "Freeze"
+kill: "Kill"
+mute: "Mute | Unmute"
+ban: "Ban"
+kick: "Kick"
+
+# Form Kick
+titlek: "AdminMenu Kick"
+contentk: "Indiqué une raison pour kick le joueur:"
+raisonk: "Raison"
+
+# Form Mute
+titlem: "AdminMenu Mute"
+contentm: "Indiqué le temps que va âtre mute le joueur:"
+timemute: "Temps (En minutes)"
+mutemin: 1
+mutemax: 100
+
+killgood: "Vous venez de kill {player} !"
+kickgood: "Vous venez de kick {player} !"
+kickr: "Vous devez indiqué une raison !"
+mutep: "Vous ne pouvez pas parlé tant que vous etes mute !"
+mutepl: "Vous venez d'être mute pendant {time}"
+mutepla: "Vous venez de mute un joueur !"
+almute: "Le joueur est déja mute !"
+...
