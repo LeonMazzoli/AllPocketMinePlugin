@@ -1,0 +1,30 @@
+---
+# Item qui va ouvir l'ui
+item.id: "345"
+item.slot: "4"
+item.name: "Serveurs"
+
+# Mettre false si le joueur ne doit pas bouger l'item dans son inventaire
+transaction.inventory: false
+
+# Mettre false si le joueur ne doit pas drop l'item
+drop.item: false
+
+# UI
+title.ui: "Serveurs"
+content.ui: "Choisi le serveur que tu désire:"
+kitpvp.ui: "KitPvp\nOuvert"
+faction.ui: "Faction\nMaintenance"
+
+# Pvpkit
+ouvert.kitpvp: true
+message.ferme.kitpvp: "Le kitpvp est fermé !"
+ip.kitpvp: "game.lordhosting.fr"
+port.kitpvp: "16345"
+
+# Faction
+ouvert.faction: true
+message.ferme.faction: "Le faction est fermé !"
+ip.faction: "game.lordhosting.fr"
+port.faction: "16345"
+...

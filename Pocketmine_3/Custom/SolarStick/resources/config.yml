@@ -1,0 +1,27 @@
+---
+# Feed
+feed.id: 1
+feed.meta: 1
+pouuf: true
+
+# Heal
+heal.id: 1
+heal.meta: 1
+pouuuf: true
+
+# Speed
+speed.id: 1
+speed.meta: 1
+pouuuuf: true
+speed.duration: 20
+speed.ampli: 2
+speed.visible: false
+
+# Invisible
+invisible.id: 1
+invisible.meta: 1
+pouf: true
+invisible.duration: 20
+invisible.ampli: 2
+invisible.visible: false
+...

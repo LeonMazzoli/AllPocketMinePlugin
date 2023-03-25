@@ -1,0 +1,10 @@
+---
+# item: [ID, META]
+item: [369, 0]
+
+# SECOND
+time: 5
+
+cooldown: 15
+popup: "§9{time}§fs"
+...

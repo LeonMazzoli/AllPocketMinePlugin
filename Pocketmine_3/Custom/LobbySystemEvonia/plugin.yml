@@ -1,0 +1,15 @@
+name: LobbySystemEvonia
+version: 0.1
+api: 3.0.0
+main: Lobby\System
+author: Digueloulou12
+
+commands:
+  lobbyreload:
+    description: "Reload les configs du plugin LobbySystemEvonia"
+    permission: "lobby.use"
+
+permissions:
+  lobby.use:
+    description: "Donne l'acces a la commande"
+    default: "op"

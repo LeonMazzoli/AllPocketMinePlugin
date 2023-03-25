@@ -1,0 +1,5 @@
+name: SolarStick
+version: 1.0
+api: 3.0.0
+main: Solar\Stick
+author: Digueloulou12

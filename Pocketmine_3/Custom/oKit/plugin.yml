@@ -1,0 +1,9 @@
+name: okit
+version: 0.1
+api: 3.0.0
+main: oKit\okitMain
+author: Digueloulou12
+
+commands:
+  kit:
+    description: "Kit"
