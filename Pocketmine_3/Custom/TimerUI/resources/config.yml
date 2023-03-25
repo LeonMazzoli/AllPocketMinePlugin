@@ -1,0 +1,19 @@
+---
+id: 341
+popup: "- {time} -"
+time: 15
+
+min: 1
+max: 5
+
+# SECONDES
+cooldown: 10
+time_: "{time} !!!!"
+
+# Form
+title: "TIMER"
+content: "Vous avez gagné {money}$ !"
+button: "OK"
+
+msg: "Vous avez gagner de l'argent ! Cliquer sur l'item pour le récuperer !"
+...
