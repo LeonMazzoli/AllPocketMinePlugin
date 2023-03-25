@@ -1,0 +1,25 @@
+---
+# Command
+desc: "Ouvre l'interface du F2W"
+perm: ""
+
+# Message
+good: "Vous venez d'acheter le grade {grade} !"
+console: "La commande doit être executer en jeu !"
+no_money: "Vous n'avez pas assez d'argent !"
+
+# Form
+title: "F2W"
+content: "Choisissez le grade que vous voulez acheter:"
+1: "§bDieux\n§f200 000$"
+2: "§eChampion\n§f400 000$"
+3: "§cPatron\n§f1 000 000$"
+
+# "NAME:PRICE"
+grades:
+  - "Dieux:200000" # Grade Dieux
+  - "Champion:400000" # Grade Champion
+  - "Patron:1000000" # Grade Patron
+
+command: "setgroup {player} {grade}"
+...

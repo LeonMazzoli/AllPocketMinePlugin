@@ -1,0 +1,24 @@
+name: CommandXemo
+version: 0.1
+api: 3.0.0
+main: Command\Xemo
+author: Digueloulou12
+mcpe-protocol: 428
+
+commands:
+  setminage:
+    description: "Minage"
+    permission: "minage.use"
+
+  setcraft:
+    description: "Craft"
+    permission: "craft.use"
+
+permissions:
+  minage.use:
+    description: "Donne l'acces a la commande"
+    default: "op"
+
+  craft.use:
+    default: "op"
+    description: "Donne l'acces a la commande"

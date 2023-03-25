@@ -1,0 +1,358 @@
+---
+# PREFIX
+prefix: "§f[§2§lFarmZ§r§f] "
+
+# Commands
+unload_commands:
+  - me
+  - about
+  - seed
+  - difficulty
+  - particle
+  - save-all
+  - save-off
+  - save-on
+  - checkperm
+  - title
+  - tell
+  - reload
+
+# Chat and Command
+chat_discord: "**{player}**: {msg}"
+command_discord: "**{player}**: ||{cmd}||"
+
+# Armor Effect
+# Name Effect: "ID_EFFECT:LEVEL_EFFECT:PARTICLE"
+armor:
+  306:
+    night_vision: "16:1:false"
+  307:
+    haste: "3:10:false"
+    hunger: "17:1:false"
+  309:
+    speed: "1:3:false"
+
+# Is
+iis: true
+is: "is:Is Command"
+is_aliases: ["island"]
+is_starter: "starter"
+
+is_invitation: 30
+is_spawn_default: "259:72:259"
+is_member_limit: 3
+
+# Skyblock Forms
+is_title: "§2§lSkyblock"
+is_input_bank: "Montant:"
+is_button_add: "-> Ajouter"
+is_button_get: "-> Info"
+is_button_remove: "-> Retirer"
+is_button_create: "-> Create"
+is_button_go: "-> Téléportation"
+is_button_members: "-> Membres"
+is_button_bank: "-> Bank"
+is_button_del: "-> Supprimer"
+is_label_create: "Choisissez le nom de votre île:"
+is_input_create: "Nom:"
+
+# Messages Island
+is_noargs_msg: "{prefix}Vous devez indiquer une commande qui existe !"
+is_create_msg: "{prefix}Votre île vient d'être créé !"
+is_already_in_is: "{prefix}Vous êtes déja dans une île !"
+is_no_title: "{prefix}Vous devez indiquer le nom de votre île !"
+is_already_exist: "{prefix}Le nom que vous avez choisi existe déja !"
+is_disband_msg: "{prefix}Vous venez de supprimer votre île !"
+is_noowner_msg: "{prefix}Vous devez être le chef de l'île pour pouvoir faire cette action !"
+is_no_island_msg: "{prefix}Vous devez faire parti d'une île pour faire cette action !"
+is_bank_noargs: "{prefix}Usage: /is bank <deposit | withdraw> <montant>"
+is_bank_status: "{prefix}La banque de votre île est à {money}$ !"
+is_bank_nomoney: "{prefix}Il n'y a pas assez d'argent en banque !"
+is_nobank: "{prefix}Le système de bank n'est pas activé !"
+is_tpgood: "{prefix}Vous avez été téléporté sur votre île !"
+is_bank_withdraw: "{prefix}Vous avez récupéré {money}$ de la banque de votre île !"
+is_bank_deposit: "{prefix}Vous avez déposé {money}$ dans la banque de votre île !"
+is_officier_requis: "{prefix}Vous devez être officier pour pouvoir faire cette action !"
+is_no_island_world: "{prefix}Vous devez être sur votre île pour faire cette action !"
+is_setspawn: "{prefix}Vous avez changé le point de spawn de votre île !"
+is_lock: "{prefix}Vous avez bloqué votre île au public !"
+is_unlock: "{prefix}Vous avez débloqué votre île au public !"
+is_members: "{prefix}Voici la liste des membres de l'île: {members}"
+is_owner_no: "{prefix}Vous ne pouvez pas faire cette action en étant le chef de l'île !"
+is_leave: "{prefix}Vous avez quitté votre île !"
+is_nomember: "{prefix}Le membre indiqué n'est pas sur votre île !"
+is_transfer: "{prefix}Vous venez de donné la propriété de l'île à {player} !"
+is_noplayer_invite: "{prefix}Le joueur indiqué n'est pas connecté !"
+is_invite_al: "{prefix}Le joueur indiqué à déja une île !"
+is_invite: "{prefix}Vous avez invité {player} dans votre île !"
+is_invite2: "{prefix}{player} vient de vous invite sur son île ! L'invitation expire dans 30 secondes !"
+no_kick_owner: "{prefix}Vous ne pouvez pas kick le chef de l'île !"
+is_not_invite: "{prefix}Vous n'avez pas reçu d'invitation !"
+is_invite_expired: "{prefix}Votre invitation a expiré !"
+is_join: "{prefix}Vous venez de rejoindre l'île {island}"
+is_member_max: "{prefix}Vous avez ateint la quantité maximum de joueur dans votre île !"
+is_kick: "{prefix}Vous avez kick {player} de l'île !"
+is_no_valid_title: "{prefix}Le nom de votre île ne convient pas !"
+
+# Feed
+feeed: true
+feed: "feed:Feed Command:feed.use"
+feed_aliases: []
+feed_msg: "{prefix}Vous venez de vous feed !"
+food: 20
+food_saturation: 14.4
+
+# Heal
+heaal: true
+heal: "heal:Heal Command:heal.use"
+heal_aliases: []
+heal_msg: "{prefix}Vous venez de vous heal !"
+heall: 20
+
+# Furnace
+furnacee: true
+furnace: "furnace:Furnace Command:furnace.use"
+furnace_aliases: []
+furnace_nofurnace: "{prefix}L'item dans votre main ne peut pas être cuit !"
+furnace_msg: "{prefix}L'item dans votre main à bien été cuit !"
+
+# Money
+money: true
+default_money: 500
+
+# Mymoney
+mymoney: "mymoney:Mymoney Command"
+mymoney_aliases: []
+mymoney_msg: "{prefix}Vous avez {money}$ !"
+
+# Seemoney
+seemoney: "seemoney:SeeMoney Command"
+seemoney_aliases: []
+seemoney_msg: "{prefix}Le joueur {player} a {money}$ !"
+
+# Addmoney
+addmoney: "addmoney:AddMoney Command:addmoney.use"
+addmoney_aliases: []
+addmoney_msg: "{prefix}Vous venez d'ajouter {money}$ à {player} !"
+
+# Removemoney
+removemoney: "removemoney:Removemoney Command:removemoney.use"
+removemoney_aliases: []
+removemoney_msg: "{prefix}Vous venez de retirer {money}$ a {player} !"
+
+# Setmoney
+setmoney: "setmoney:Setmoney Command:setmoney.use"
+setmoney_aliases: []
+setmoney_msg: "{prefix}Vous venez de définir la money de {player} a {money}$ !"
+
+# Topmoney
+topmoney: "topmoney:Topmoney Command"
+topmoney_aliases: []
+tommoney_num: 10
+topmoney_title: "------ {prefix}------"
+topmoney_msg: "#§2{num}§f -> §2{player}§f avec §2{money}§f$"
+
+# Pay
+pay: "pay:Pay Command"
+pay_aliases: []
+pay_nomoney_msg: "{prefix}Vous n'avez pas assez d'argent !"
+pay_msg: "{prefix}Vous avez envoyé {money}$ a {player} !"
+pay_msg2: "{prefix}Vous venez de recevoir {money}$ de {player} !"
+
+# XpBottle
+xppbottle: true
+xpbottle: "xpbottle:XpBottle Command:xpbottle.use"
+xpbottle_aliases: []
+xpbottle_noargsxp: "{prefix}Vous devez indiqué soit une quantité d'xp, soit 'all' !"
+xpbottle_noxp: "{prefix}Vous n'avez pas assez d'xp !"
+xpbottle_msg: "{prefix}Vous avez transformé votre xp en bouteille !"
+xpbottle_item: "§2{xp} §fXp"
+xpbottle_novalue: "{prefix}Vous ne pouvez pas créé une bouteille d'xp avec plus de 15000 xp !"
+
+# Msg
+msgg: true
+msg: "message:Message Command"
+msg_aliases: ["msg"]
+msg_message: "{player} -> {sender}: {msg}"
+
+# Top
+topp: true
+top: "top:Top Command"
+top_aliases: []
+top_title: "------ {prefix}------"
+top_limite: 10
+top_msg_no_args: "{prefix}Vous devez indique soit 'death' soit 'kill' !"
+top_msg: "#§2{num}§f -> §2{player}§f avec §2{value}§f {name}"
+
+# Warp
+warpp: true
+warp: "warp:Warp Command"
+warp_aliases: ["warps"]
+warp_title: "Warp"
+warp_title_admin: "Warp admin"
+warp_label_manage: "Veuillez entré le nom d'un warp:"
+warp_permission_admin: "admin.warp"
+warp_list_warp: "{prefix}Voici la liste des warps disponible sur le serveur: {warps}"
+warp_teleport: "{prefix}Vous avez été téléportré au warp {warp} !"
+warp_add: "{prefix}Vous avez ajouté le warp {warp} !"
+warp_already: "{prefix}Le warp {warp} existe déja !"
+warp_noexist: "{prefix}Le warp {warp} n'existe pas !"
+warp_button: "-> {warp}"
+warp_removewarp: "{prefix}Vous avez supprimé le warp {warp} !"
+
+# AddRand
+addrankk: true
+addrank: "addrank:AddRank Command:addrank.use"
+addrank_aliases: []
+addrank_no_args: "{prefix}Vous devez indiquer le nom d'un rank !"
+addrank_exist_rank: "{prefix}Le rank indiqué existe déja !"
+addrank_good: "{prefix}Vous avez créé le grade §2{rank} §f!"
+
+# RemoveRank
+removerankk: true
+removerank: "removerank:RemoveRank Command:removerank.use"
+removerank_aliases: []
+removerank_no_args: "{prefix}Vous devez indiquer le nom d'un rank !"
+removerank_no_exist_rank: "{prefix}Le rank indiqué n'existe pas !"
+removerank_good: "{prefix}Vous avez supprimé le grade §2{rank} §f!"
+
+# AddPermission
+addpermissionn: true
+addpermission: "addpermission:AddPermission Command:addpermission.use"
+addpermission_aliases: []
+addpermission_no_args: "{prefix}Vous devez indiquer le nom d'un rank !"
+addpermission_no_exist_rank: "{prefix}Le rank indiqué n'existe pas !"
+addpermission_no_args_perm: "{prefix}Vous devez indiquer une permission !"
+addpermission_good: "{prefix}Vous avez ajouté la permission§2 {perm} §fau rank§2 {rank} §f!"
+
+# Report
+reportt: true
+report: "report:Report Command"
+report_aliases: []
+report_no_title: "{prefix}Vous devez indiqué un titre à votre report !"
+report_no_desc: "{prefix}Vous devez indiqué une description à votre report !"
+report_exist: "{prefix}Il y a déja un report avec ce titre !"
+report_alert_staff: true
+report_perm_alert: "report.alert.use"
+report_alert_staff_msg: "{prefix}Le joueur {player} vient de faire un report !"
+report_alert_player: true
+report_alert_player_msg: "{prefix}Le joueur {player} vient de vous report !"
+
+# Report Admin
+reportadminn: true
+reportadmin: "reportadmin:ReportAdmin Command:reportadmin.use"
+reportadmin_aliases: []
+reportadmin_del_msg: "{prefix}Vous avez supprimé le report !"
+reportadmin_tp_offline_msg: "{prefix}Le joueur n'est pas connecté !"
+reportadmin_tp_good_msg: "{prefix}Vous avez été téléporté avec succès !"
+
+# Report Forms and Discord
+report_discord: true
+report_discord_type: embed
+report_embed_title: "**Report**"
+report_embed: "Un nouveau report est apparue !!\nAuteur: {player}\nJoueur: {sender}\nDescription: {desc}"
+report_embed_del: "Le joueur {player} vient de supprimer le report {report}"
+report_discord_msg: "Un nouveau report est apparue !!\nAuteur: {player}\nJoueur: {sender}\nDescription: {desc}"
+report_discord_del_msg: "Le joueur {player} vient de supprimer le report {report}"
+report_title: "Report"
+report_label: "Veuillez indiquer toutes les informations demander pour valider votre report:"
+report_input_title: "Titre:"
+report_dropdown: "Joueur:"
+report_input_description: "Description:"
+
+reportadmin_content1: "Choisissez un report pour le voir en détail !"
+reportadmin_content: "Titre: {title}\nAuteur: {author}\nJoueur: {player}\nDescription {desc}"
+reportadmin_button_teleportation: "-> Téléportation"
+reportadmin_button_del: "-> Supprimer"
+
+# Staff
+stafff: true
+staff: "staff:Staff Command:staff.use"
+staff_aliases: []
+staff_help_msg: "{prefix}Voici la liste des commandes pour le staff: §a/staff§f..."
+staff_item: "399:0:5:Staff"
+staff_on: "{prefix}Vous venez de passé en staffmod !"
+staff_off: "{prefix}Vous venez de quitté le staffmod !"
+staff_kick_msg: "{prefix}Vous avez kick le joueur {player} !"
+staff_kill_msg: "{prefix}Vous avez kill le joueur {player} !"
+staff_freeze_off: "{prefix}Vous avez unfreeze le joueur {player} !"
+staff_freeze_on: "{prefix}Vous avez freeze le joueur {player} !"
+staff_title: "{prefix}"
+staff_random: "Joueur aléatoire"
+staff_choose: "-> {player}"
+staff_enderinvsee: "Slot: {slot}\n{count}x {item}"
+staff_armor: "-> {item}"
+staff_button_armor: "Armure"
+staff_button_inventory: "Inventaire"
+staff_button_enderinventory: "Ender Chest"
+staff_info: "-> Voici les informations de {name} :\n- Nom: {name}\n- NomCustom: {customname}\n- Ip: {ip}\n- Port: {port}\n- Gamemode: {gamemode}\n- Position: x:{x} y:{y} z: {z} Monde: {world}\n- Ping: {ping}\n- Xp Level: {xp}\n- Xuid: {xuid}"
+staff_button_kick: "Kick"
+staff_button_kill: "Kill"
+staff_button_info: "Info"
+staff_button_inv: "Inventaire"
+staff_button_freeze: "Freeze"
+staff_back: "§l§cRetour"
+
+# Messages
+noplayer: "{prefix}La commande doit être executer en jeu !"
+no_args_player: "{prefix}Vous devez indiquer un joueur !"
+no_onlineplayer: "{prefix}Le joueur est déconnecté !"
+no_exist_player: "{prefix}Le joueur indiqué n'existe pas !"
+is_numeric: "{prefix}Vous devez indiquer un chiffre !"
+noperm: "{prefix}Vous n'avez pas la permission !"
+no_my: "{prefix}Vous ne pouvez pas faire cette action sur vous !"
+no_place_inv: "{prefix}Vous n'avez pas assez de place dans votre inventaire !"
+tp_good: "{prefix}Vous avez été téléporté à {player} !"
+no_negative_value: "{prefix}Vous devez indiqué une valeur supérieur à 0 !"
+imune_player: "{prefix}Le joueur est imunisé !"
+
+# Join / Quit
+join_msg: "§a{player} §f++"
+join_msg_new: "{prefix}Bienvenue au joueur {player} qui est nouveau sur le serveur !"
+join_msg_discord: "**{player}** ++"
+quit_msg: "§c{player} §f--"
+quit_msg_discord: "**{player}** --"
+whitelist: "{prefix}- Tu n'est pas autorisé à rejoindre le serveur !"
+
+# Anvil
+anvil_no: "{prefix}Vous ne pouvez pas ouvrir l'enclume avec l'item qu'il y a dans vos mains !"
+anvil_title: "§2§lAnvil"
+anvil_buton_rename: "Renommer"
+anvil_button_repair: "Réparer"
+
+# Items
+# Farming Chest
+farmingchest_id: 146
+ray: 4
+potato: true
+beetroot: true
+wheat: true
+carrot: true
+nether_wart: true
+seeds: true
+
+# Combat Logger
+combat_logger: true
+combat_time: 15
+combat_stop: "{prefix}Vous n'êtes plus en combat !"
+combat_start: "{prefix}Vous êtes en combat, ne vous déconnecter pas sous peine de sanction !"
+combat_command_msg: "{prefix}Vous ne pouvez pas executer de commande pendant que vous êtes en combat !"
+
+# ClearLagg
+clearlagg: true
+time: 600
+time_chat: [30, 15, 10, 5, 4, 2, 1]
+clearlagg_time: "{prefix}Un clearlagg va être éffectuer dans {time} seconde(s)!"
+clearlagg_clear: "{prefix}Il y à eu un total de {count} entité(s) supprimés !"
+
+# Motd
+motdd: true
+motd_time: 90
+motd: ["§a§lFarmZ Skyblock", "§aBest §fSkyblock §aFR"]
+
+# Discord
+webhook: "https://discord.com/api/webhooks/886343412184391741/i7UeFsn-RN33_KKFQuto-iQnIwJSXCpLShRZteNjN3-nitDUKQ4PQiIX5oaOc6MBZLrC"
+embed_color: "2067276"
+start: "Server **on**"
+stop: "Server **off**"
+...

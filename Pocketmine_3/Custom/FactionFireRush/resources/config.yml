@@ -1,0 +1,102 @@
+---
+# Command
+command: "faction:Faction Command"
+command_aliases: ["f"]
+
+# Settings
+min_power_for_claim: 600
+max_power_player: 10000
+level_claim: "world"
+time_invite_ally: 60
+power_per_claim: 500
+overclaim_cost: 1500
+owerclaim_min: 2000
+default_power_p: 0
+top_faction: 10
+time_invite: 30
+power_death: 4
+max_player: 10
+power_kill: 2
+
+# Message
+prefix: "§f[§9LoFaction§f] "
+console: "{prefix}La commande doit être executer en jeu !"
+
+# SubCommands
+help: "{prefix} Voici la liste des commandes disponible:\n- /§9f help§f -> Affiche la liste des commandes disponible\n- /§9f create§f -> Créé une faction
+\n- /§9f description§f -> Définie la description d'une faction\n- /§9f name§f -> Renomme une faction\n- /§9f delete§f -> Supprime une faction\n- /§9f givelead§f -> Donne la propriété de la faction à un autre joueur
+\n- /§9f promote§f -> Promouvoir un joueur\n- /§9f depromote§f -> Unrank un joueur\n- /§9f member§f -> Affiche les membres d'une faction\n- /§9f kick§f -> Kick un joueur d'une faction
+\n- /§9f ally§f -> Gère les alliances\n- /§9f sethome§f -> Définie le home d'une faction\n- /§9f home§f -> Téléporte au home d'une faction\n- /§9f claim§f -> Claim un chunk
+\n- /§9f unclaim§f -> Unclaim un chunk\n- /§9f overclaim§f -> Surclaim un chunk\n- /§9f invite§f -> Invite un joueur dans une faction\n- /§9f join§f -> Rejoin une faction
+\n- /§9f leave§f -> Quitte une faction\n- /§9f chat§f -> Parle dans le chat de la faction\n- /§9f topfaction§f -> Affiche le topfaction\n- /§9f info§f -> Affiche les informations d'une faction
+\n- /§9f fly§f -> Active le fly dans un claim de la faction\n- /§9f chunk§f -> Affiche les chunks"
+already_in_faction: "{prefix}Vous avez déja une faction !"
+no_args_faction: "{prefix}Vous devez indiquer le nom d'une faction !"
+no_faction: "{prefix}Vous devez être dans une faction !"
+require_owner: "{prefix}Vous devez être le chef de la faction !"
+no_args_player: "{prefix}Vous devez indiquer un joueur !"
+no_connected_player: "{prefix}Le joueur indiqué n'est pas connecté !"
+chat: "§9{faction}§f | §9{rank}§f{player} -> {msg}"
+no_perm_in_faction: "{prefix}Vous n'avez pas la permission !"
+no_exist_faction: "{prefix}La faction indiqué n'existe pas !"
+no_in_faction: "{prefix}Le joueur indiqué n'est pas dans votre faction !"
+msg_info: "§f------ §9{prefix}§f------\n- Nom: §9{name}§f\n- Description: §9{desc}§f\n- Power: §9{power}§f/§9{max_power}§f\n- Claim: §9{claim}§f\n- Chef: §9{owner}§f\n- Membre(s): §9{members}§f\n------ {prefix}------"
+exist_faction: "{prefix}Une faction existe déja avec ce nom !"
+create_faction: "{prefix}Votre faction à bien été créé !"
+del_faction: "{prefix}Vous avez supprimé votre faction !"
+no_invite: "{prefix}Vous n'avez pas reçu d'invitation !"
+no_valid: "{prefix}L'invitation que vous avez reçu n'est plus valide !"
+join_good: "{prefix}Vous avez rejoint une faction !"
+has_faction: "{prefix}Le joueur indiqué est déja dans une faction !"
+invite_player: "{prefix}Vous avez invité le joueur §9{player}§f dans votre faction !"
+invite_sender: "{prefix}Vous avez été invité dans la faction §9{faction}§f !"
+no_leave: "{prefix}Vous ne pouvez pas quitter votre faction !"
+leave_good: "{prefix}Vous avez bien quitté votre faction !"
+description: "{prefix}Vous avez changer la description de votre faction avec succes !"
+chat_global: "{prefix}Vous parlez désormais dans le chat global !"
+chat_faction: "{prefix}Vous parlez désormais dans le chat de votre faction !"
+msg_player: "{prefix}Vous n'etes plus le chef de votre faction !"
+msg_sender: "{prefix}Vous etes passé chef de votre faction !"
+kick: "{prefix}Vous avez bien kick le joueur !"
+no_kick: "{prefix}Vous ne pouvez pas kick ce joueur !"
+rename_no: "{prefix}Vous devez indiquer un nouveau nom !"
+rename_good: "{prefix}Vous avez renommé votre faction !"
+member: "{prefix}Voici la liste des membres de votre faction: §9{members}"
+no_home: "{prefix}Votre faction na pas de home !"
+sethome_good: "{prefix}Le home de votre faction vient d'être définie !"
+home_good: "{prefix}Vous avez été téléporté au home de votre faction !"
+no_promote: "{prefix}Vous ne pouvez pas promouvoir ce joueur !"
+promote_good: "{prefix}Vous venez de promouvoir un joueur !"
+no_demote: "{prefix}Vous ne pouvez pas unrank ce joueur !"
+demote_good: "{prefix}Vous avez bien unrank ce joueur !"
+chunk_visible: "{prefix}Vous voyez désormais les chunks !"
+chunk_unvisible: "{prefix}Vous ne voyez désomais plus les chunk !"
+title_top: "------ §9Top§f 10 §9Factions §f------"
+info_top: "#{top} -> {faction}§f avec §9{power}§f power(s)"
+stop_player: "{prefix}Vous avez ateint le nombre de joueur maximum dans votre faction !"
+no_world_claim: "{prefix}Vous ne pouvez pas claim dans ce monde !"
+already_claim: "{prefix}Ce chunk est déja claim par la faction §9{faction}§f !"
+no_power: "{prefix}Vous n'avez pas assez de power ! Il vous faut minimum§9 600 §fde power !"
+claim_good: "{prefix}Vous venez de claim ce chunk !"
+no_claim: "{prefix}Ce chunk n'est pas claim !"
+no_claim_you: "{prefix}Ce chunk n'est pas claim par votre faction !"
+unclaim_good: "{prefix}Vous avez unclaim ce chunk !"
+fly_off: "{prefix}Votre fly vient d'être désactiver !"
+fly_on: "{prefix}Votre fly vient d'être activer !"
+ally_help: "{prefix}Vous devez indiquer soit le no d'une faction ou §9accept§f ou §9del§f ou §9list§f !"
+no_owner_online: "{prefix}Le chef de la faction est hors ligne !"
+ally_sender: "{prefix}Vous avez reçu une demande d'ally de la faction§9 {faction}§f !"
+ally_player: "{prefix}Vous avez envoyer une demande d'ally à la faction§9 {faction}§f !"
+no_ally: "{prefix}Vous n'avez pas reçu de demande d'ally !"
+expired_ally: "{prefix}La demande d'ally que vous avez reçu à expiré !"
+already_ally: "{prefix}Vous etes déja ally avec cette faction !"
+ally_good: "{prefix}Vous etes maintenant ally avec la faction !"
+list_ally: "{prefix}Voici la liste des alliances de la faction§9 {faction}§f: §9{ally}"
+no_ally_faction: "{prefix}Vous n'etes pas ally à cette faction !"
+unally_good: "{prefix}Vous venez de rompre votre ally avec cette faction !"
+no_overclaim: "{prefix}Vous n'avez pas assez de power pour overclaim le chunk !"
+overclaim: "{prefix}Vous avez overclaim le chunk !"
+overclaim_owner: "{prefix}Un de vos chunk vient d'être overclaim !"
+server_create: "{prefix}La faction§9 {faction} §fvient d'être créé !"
+server_delete: "{prefix}La faction§9 {faction} §fvient d'être supprimer !"
+...

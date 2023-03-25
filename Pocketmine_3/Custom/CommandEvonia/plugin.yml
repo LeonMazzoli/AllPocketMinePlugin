@@ -1,0 +1,19 @@
+name: CommandEvonia
+version: 0.1
+api: 3.0.0
+main: Command\Evonia
+author: Digueloulou12
+
+commands:
+  commandreload:
+    description: "Reload les configs du plugin CommandEvonia fait par Digueloulou12"
+    permission: "commandreload.use"
+
+permissions:
+  commandreload.use:
+    description: "Donne l'acces a la commande"
+    default: "op"
+
+  furnace.use:
+    description: "Donne l'acces a la commande"
+    default: "op"

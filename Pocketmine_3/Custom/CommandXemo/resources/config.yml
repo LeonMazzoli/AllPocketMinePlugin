@@ -1,0 +1,22 @@
+---
+# Message quand la commande est executer depuis la consoel
+use.ig: "La commande doit être utilisé en jeu !"
+
+craft.good: "Les crafts ont bien été définie !"
+minage.good: "Le minage a bien été définie !"
+
+# Spawn
+spawn.yes: "Vous avez été téléporté au spawn !"
+spawn.tp: "Vous aller être tp dans {time}"
+bouge.spawn: "Téléportation anulé"
+
+# Minage
+minage.yes: "Vous avez été téléporté en minage !"
+minage.tp: "Vous aller être tp dans {time}"
+bouge.minage: "Téléportation anulé"
+
+# Craft
+craft.yes: "Vous avez été téléporté en craft !"
+craft.tp: "Vous aller être tp dans {time}"
+bouge.craft: "Téléportation anulé"
+...

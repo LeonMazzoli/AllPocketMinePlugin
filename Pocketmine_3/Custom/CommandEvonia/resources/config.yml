@@ -1,0 +1,23 @@
+---
+# Boutique
+desc.boutique: "Vous donne le lien vers la boutique"
+message.boutique: "§9§lVoici le lien de la boutique : soon"
+
+# Discord
+desc.discord: "Vous donne le lien vers le discord"
+message.discord: "§9§lVoici le lien du discord : https://discord.gg/bk5qVT3rMX"
+
+# Furnace
+desc.furnace: "Cuit automatiquement l’item dans votre main (alias : /four)"
+no.furnace: "§cCet objet ne peut pas être cuit !"
+good.furnace: "§aVous avez bien cuit votre item !"
+noperm.furnace: "Vous n'avez pas la permission d'utiliser le /furnace !"
+console.furnace: "La commande doit être executer en jeu !"
+
+# Rtp
+desc.rtp: "Permet de se téléporter aléatoirement"
+message.rtp: "§aVous avez bien été téléporté aléatoirement !"
+wild-MaxX: "2000"
+wild-MaxY: "2000"
+console.rtp: "La commande doit être executer en jeu !"
+...
