@@ -1,0 +1,27 @@
+---
+prefix: "§eProtectArea§f "
+
+# Command
+command: ["protectarea"]
+commandAliases: ["pa"]
+
+# Forms
+title: "{prefix}"
+content: "{prefix}Choose an action:"
+button_create: "-> Create"
+button_edit: "-> Edit"
+button_remove: "-> Remove"
+
+button_area: "-> {area}"
+
+# Messages
+edit_area: "{prefix}You have edit a area !"
+no_exist_area: "{prefix}This area do not exist !"
+no_permission: "{prefix}You do not have a permission !"
+remove_area: "{prefix}You have been deleted {area} area !"
+click: "{prefix}Click on 2 blocks to create the region!"
+already_exist: "{prefix}The area already exist !"
+no_area: "{prefix}You must enter a name!"
+add_one: "{prefix}One block selected !"
+add_area: "{prefix}You have just created {area} !"
+...

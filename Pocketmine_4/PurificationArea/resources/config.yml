@@ -1,0 +1,16 @@
+---
+area:
+  blaze_rod: [
+      [110, 70, 100],
+      [100, 90, 110],
+      "world",
+      50,
+      [369, 0, 2],
+      [280, 0, 1]]
+
+messages:
+  walk_in: "Vous etes entrer dans la zone de Purification {name} !"
+  go_out: "Vous avez quitter la zone de Pufification {name} !"
+  no_item: "Vous devez avoir l'item requis dans vos mains !"
+  purification: "{%}%%"
+...

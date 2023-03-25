@@ -1,0 +1,59 @@
+---
+prefix: "§9Ranks§f "
+
+# For Commands
+# command: [ "NAME", "DESCRIPTION" ]
+# command_aliases: [ ALIASES ]
+
+listranks: ["listranks"] # Permission: rank.use
+listranks_aliases: []
+listranks_msg: "{prefix}Here is the list of ranks (§9{count}§f): §9{ranks}"
+
+addrank: ["addrank"] # Permission: rank.use
+addrank_aliases: []
+addrank_msg: "{prefix}You have created the rank§9 {rank} §f!"
+
+removerank: ["removerank"] # Permission: rank.use
+removerank_aliases: []
+removerank_msg: "{prefix}You deleted the rank §9{rank} §f!"
+
+setrank: ["setrank"] # Permission: rank.use
+setrank_aliases: []
+setrank_msg: "{prefix}You have set the rank of §9{player}§f to §9{rank} §f!"
+
+addpermission: ["addpermission"] # Permission: rank.use
+addpermission_aliases: []
+addpermission_rank_msg: "{prefix}You added permission§9 {perm} §fau rank§9 {rank}§f !"
+addpermission_player_msg: "{prefix}You have added the permission§9 {perm} §false player§9 {player}§f!"
+
+removepermission: ["removepermission"] # Permission: rank.use
+removepermission_aliases: []
+removepermission_rank_msg: "{prefix}You revoked permission§9 {perm} §fau rank§9 {rank}§f!"
+removepermission_player_msg: "{prefix}You revoked permission§9 {perm} §false player§9 {player}§f!"
+
+no_remove_default_rank: "{prefix}You cannot delete the default rank!"
+no_has_perm_player: "{prefix}Player§9 {player} §f does not have permission §9{perm} §f!"
+already_exist_rank: "{prefix}The rank §9{rank} §f already exists!"
+no_has_perm_rank: "{prefix}The rank§9 {rank}§f does not have permission§9 {perm} §f!"
+has_perm_player: "{prefix}Player§9 {player}§f already has permission§9 {perm} §f!"
+no_exist_player: "{prefix}Player §9{player}§f does not exist!"
+no_args_player: "{prefix}You must specify a player!"
+no_exist_rank: "{prefix}The rank§9 {rank} §f does not exist!"
+has_perm_rank: "{prefix}The rank§9 {rank}§f already has permission§9 {perm} §f!"
+no_args_rank: "{prefix}You must indicate a name of a rank!"
+no_args_type: "{prefix}You must indicate §9player§f or §9rank§f!"
+no_args_perm: "{prefix}You must specify permission!"
+no_perm: "{prefix}You don't have permission!"
+
+default_rank: "Player"
+chat_format: "§f[{color}{rank}§f] {fac_rank}{faction} {player}: {color}{msg}"
+
+nametag: "§f[{color}{rank}§f] {fac_rank}{faction} {player}"
+
+# Plugin Faction: SimpleFaction | PiggyFactions | null
+faction_plugin: null
+
+color:
+  Player: "§7"
+  default: "§f"
+...

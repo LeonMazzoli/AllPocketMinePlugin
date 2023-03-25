@@ -1,0 +1,55 @@
+---
+# yaml or mysql
+money_save: yaml
+
+mysql-host: 127.0.0.1
+mysql-user: root
+mysql-password: password
+mysql-database: MoneyAPI
+
+prefix: "§f[§9Money§f] "
+no_perm: "{prefix}You don't have permission !"
+no_args_player: "{prefix}You must indicate a player !"
+no_exist_player: "{prefix}The specified player does not exist !"
+is_numeric: "{prefix}You must enter a number !"
+no_my: "{prefix}You cannot do this action on yourself !"
+no_negative_value: "{prefix}You must specify a value greater than 0 !"
+
+money_default: 500
+
+# Commands
+# command: "NAME:DESCRIPTION:PERMISSION"
+# command_aliases: [ ALIASES ]
+
+mymoney: "mymoney:Mymoney Command"
+mymoney_aliases: []
+mymoney_msg: "{prefix}You have {money}$ !"
+
+seemoney: "seemoney:SeeMoney Command"
+seemoney_aliases: []
+seemoney_msg: "{prefix}The player {player} have {money}$ !"
+
+addmoney: "addmoney:AddMoney Command:money.use"
+addmoney_aliases: []
+addmoney_msg: "{prefix}You just added {money}$ to {player} !"
+
+removemoney: "removemoney:Removemoney Command:money.use"
+removemoney_aliases: []
+removemoney_msg: "{prefix}You just removed {money}$ to {player} !"
+
+setmoney: "setmoney:Setmoney Command:money.use"
+setmoney_aliases: []
+setmoney_msg: "{prefix}You have just defined the money of {player} to {money}$ !"
+
+topmoney: "topmoney:Topmoney Command"
+topmoney_aliases: []
+tommoney_num: 10
+topmoney_title: "------ {prefix}------"
+topmoney_msg: "#§9{num}§f -> §9{player}§f with §9{money}§f$"
+
+pay: "pay:Pay Command"
+pay_aliases: []
+pay_nomoney_msg: "{prefix}You do not have enough money!"
+pay_msg: "{prefix}You sent {money}$ to {player} !"
+pay_msg2: "{prefix}You just received {money}$ by {player} !"
+...

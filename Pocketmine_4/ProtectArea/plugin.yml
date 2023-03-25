@@ -1,0 +1,9 @@
+name: ProtectArea
+version: 1.1
+api: 4.0.0
+main: Digueloulou12\ProtectArea\ProtectArea
+author: Digueloulou12
+
+permissions:
+  protectarea.use:
+    default: op

@@ -1,0 +1,112 @@
+---
+prefix: "§eLobbyCore§f "
+
+# Messages
+message_join: "§e{player}§f ++"
+message_quit: "§e{player}§f --"
+
+# Servers
+servers:
+  Nimiris:
+    - "nimiris.fr"
+    - 19132
+
+# Commands
+chatCommand: ["chat", "Chat Command", "chat.use"]
+chatCommandAliases: []
+chatCommandMessage: "{prefix}You've put the cat on §e{status}§f !"
+chatCommandPermissionByPass: "chat.chat"
+
+# Items
+enderpearl: 2
+blaze_rod: 6
+compass: 4
+
+# Form
+title: "§e- §fServers §e-"
+content: "Choose the server you want to connect to:"
+button: "§f-§e {name}\n{online}§f/§e{max_online}"
+
+sentence_time: 300
+sentences:
+  - "This plugin created by Digueloulou12"
+  - "Nimiris creadted by Digueloulou12"
+  - "Digueloulou12 is a Developper"
+
+# Scoreboard
+update_scoreboard: 200
+scoreboard_title: "§eNimiris"
+scoreboard:
+  - "Online: {online}"
+  - "Max Online: {max_online}"
+  - "Rank: {rank}"
+
+# NameTag
+nametag: "{color}{rank} §f| {name}\n{health}%"
+
+# Chat
+chat_format: "§f[{color}{rank}§f] | {name} -> {color}{msg}"
+
+# RankSystem
+rank_default: "Joueur"
+
+addpermission: ["addpermission"]
+addpermission_aliases: []
+addpermission_rank_msg: "{prefix}Vous avez ajouté la permission§e {perm}§f au rank §e{rank} §f!"
+addpermission_player_msg: "{prefix}Vous avez ajouté la permission§e {perm} §fau joueur§e {player} §f!"
+
+addrank: ["addrank"]
+addrank_aliases: []
+addrank_msg: "{prefix}Vous avez ajouter le rank§e {rank} §f!"
+
+listranks: ["listranks"]
+listranks_aliases: []
+listranks_msg: "{prefix}Voici la liste des ranks (§e{count}§f): {ranks}"
+
+removepermission: ["removepermission"]
+removepermission_aliases: []
+removepermission_player_msg: "{prefix}Vous avez retiré la permission§e {perm} §fau joueur§e {player} §f!"
+removepermission_rank_msg: "{prefix}Vous avez retiré la permission§e {perm} §fau rank§e {rank}§f !"
+
+removerank: ["removerank"]
+removerank_aliases: []
+removerank_msg: "{prefix}Vous avez supprimé le rank§e {rank} §f!"
+
+setrank: ["setrank"]
+setrank_aliases: []
+setrank_msg: "{prefix}Vous avez définie le rank de §e{player}§f sur §e{rank}§f !"
+
+rank_color:
+  Joueur: "§7"
+  default: "§f"
+
+already_exist_rank: "{prefix}Le rank§e {rank} §fexiste déja !"
+no_has_perm_player: "{prefix}Le joueur§e {player}§f na pas la perm §e{perm}§f !"
+no_has_perm_rank: "{prefix}Le rank§e {rank} §fna pas la perm §e{perm}§f !"
+has_perm_player: "{prefix}Le joueur§e {player} §fà déja la permission §e{perm} §f!"
+no_exist_player: "{prefix}Le joueur indiqué n'existe pas !"
+no_args_player: "{prefix}Vous devez indiquer un joueur !"
+has_perm_rank: "{prefix}Le rank §e{rank} §fà déja la permission §e{perm} §f!"
+no_exist_rank: "{prefix}Le rank§e {rank} §fn'existe pas !"
+no_args_type: "{prefix}Vous devez indiquer§e player§f ou §erank §f!"
+no_args_rank: "{prefix}Vous devez indiquer le nom d'un rank !"
+no_args_perm: "{prefix}Vous devez indiquer une permission !"
+no_online: "{prefix}Le joueur indiqué n'est pas connecté !"
+no_player: "{prefix}La commande doit être executer en jeu !"
+
+# Npc
+id_msg: "{prefix}L'id du pnj est §e{id} §f!"
+no_action: "{prefix}Vous devez indiquer une action ! ( §ecreate§f | §eremove§f | §eid§f )"
+already_id: "{prefix}L'id est déja activer !"
+id_msg_: "{prefix}Cliquer sur le pnj dont vous voulez connaitre l'id !"
+npc_spawn: "{prefix}Vous avez fait spawn le pnj rediriger vers le serveur §e{ip}§f:§e{port}§f !"
+no_ip: "{prefix}Vous devez indiquer une ip !"
+nametag_npc: "§e{online}§f/§e{max_online}"
+
+npcCommand: ["npc", "", "npc.use"]
+npcCommandAliases: []
+
+# BlazeRod
+blazeOn: "{prefix}Vous ne voyez plus les joueurs !"
+blazeOff: "{prefix}Vous voyez les joueurs !"
+...

@@ -1,0 +1,21 @@
+---
+prefix: "§dKoth§f "
+
+no_perm: "{prefix}Vous n'avez pas la permission !"
+
+# Koth
+koth: ["koth", "", "koth"]
+koth_aliases: []
+koth_no_args: "{prefix}Vous devez indiquer §dstart§f ou §dstop§f !"
+koth_no_stop: "{prefix}Il n'y à pas de koth en cour !"
+koth_no_start: "{prefix}Il y à déja un koth en cour !"
+koth_start: "{prefix}Un event koth à commencé !"
+koth_stop: "{prefix}L'event koth à été annulé !"
+koth_king: "{prefix}Vous tenez le KOTH !"
+koth_join: "{prefix}Vous etes entrer dans le KOTH !"
+koth_leave: "{prefix}Vous avez quitter le KOTH !"
+koth_finish: "{prefix}Le KOTH est finie le vainceur est§d {player} §f!"
+koth_commands: ["give {player} diamond"]
+koth_pos: [100, 100, 110]
+koth_pos_: [110, 10, 100]
+...

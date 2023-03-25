@@ -1,0 +1,9 @@
+name: LobbyCore
+version: 1.0
+api: 4.0.0
+main: Digueloulou12\LobbyCore\LobbyCore
+author: Digueloulou12
+
+permissions:
+  rank.use:
+    default: op
