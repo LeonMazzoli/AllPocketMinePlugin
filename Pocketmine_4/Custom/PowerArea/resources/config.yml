@@ -1,0 +1,11 @@
+---
+pos: [0, 0, 0]
+pos_: [0, 0, 0]
+world: "world"
+
+power: 10
+tip: "+§d10 §f!"
+
+# Time In Second
+time: 5
+...

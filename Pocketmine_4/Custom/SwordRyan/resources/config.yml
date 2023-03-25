@@ -1,0 +1,16 @@
+---
+sword: [270, 0, 1, 4]
+
+world: "FFA"
+
+kit:
+  helmet: null
+  chestplate: null
+  leggings: null
+  boots: null
+  items: [
+    [1, 0, 64],
+    [2, 0, 64],
+    [3, 0, 64]
+  ]
+...

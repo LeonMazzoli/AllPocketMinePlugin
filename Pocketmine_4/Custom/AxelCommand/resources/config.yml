@@ -1,0 +1,15 @@
+---
+# command: [COMMAND, DESCRIPTION]
+feed: ["feed"] # feed.use
+heal: ["heal"] # heal.use
+furnace: ["furnace"] # furnace.use
+
+furnace_items:
+  49-0: 10-0
+
+furnace_msg: "The items in your hand have been cooked !"
+heal_msg: "You have been healed !"
+feed_msg: "You have been fed !"
+
+no_perm: "You do not have a permission !"
+...

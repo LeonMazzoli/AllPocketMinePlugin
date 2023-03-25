@@ -1,0 +1,13 @@
+name: AxelCommand
+version: 1.0
+api: 4.0.0
+main: Digueloulou12\Axel
+author: Digueloulou12
+
+permissions:
+  heal.use:
+    default: op
+  feed.use:
+    default: op
+  furnace.use:
+    default: op

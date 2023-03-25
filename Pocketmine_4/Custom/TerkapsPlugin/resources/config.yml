@@ -1,0 +1,7 @@
+---
+# ID: [WORLD_1, WORLD_1...]
+# Exemple: 59 ( ID WHEAT )
+# 59: ["world"]
+# Wheat will not be able to grow in the world "world"
+59: ["world"]
+...
