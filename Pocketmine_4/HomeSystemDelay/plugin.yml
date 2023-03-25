@@ -1,0 +1,9 @@
+name: HomeSystemDelay
+version: 2.0
+api: 4.0.0
+main: Digueloulou12\HomeSystemDelay
+author: Digueloulou12
+
+permissions:
+  admin.home:
+    default: op

@@ -1,0 +1,9 @@
+---
+# ID:META
+id: 359
+dispawn: true
+time: 10
+# DEMI COEUR = 1
+heal: 6
+cooldown: "Il vous reste encore {time} a attendre !"
+...

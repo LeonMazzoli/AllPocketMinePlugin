@@ -1,0 +1,11 @@
+---
+pos: [0, 0, 0]
+pos_: [0, 0, 0]
+world: "world"
+
+add_xp: 10
+tip: "+§d{xp} §f!"
+
+# Time In Second
+time: 5
+...

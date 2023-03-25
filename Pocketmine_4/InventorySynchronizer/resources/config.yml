@@ -1,0 +1,6 @@
+---
+mysql-host: "mysql-host"
+mysql-user: "mysql-user"
+mysql-password: "mysql-password"
+mysql-database: "mysql-database"
+...

@@ -1,0 +1,7 @@
+---
+cooldown: 15
+popup: "{time} second(s) !"
+
+cancel_msg: "NO !"
+block_id: 1
+...

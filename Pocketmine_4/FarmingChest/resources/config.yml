@@ -1,0 +1,16 @@
+---
+# ID Farmingchest
+farmingchest: 146
+
+# Ray
+ray: 4
+
+# Plant
+potato: true
+beetroot: true
+wheat: true
+carrot: true
+nether_wart: true
+
+seeds: true
+...
