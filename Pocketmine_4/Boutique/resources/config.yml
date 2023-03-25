@@ -1,0 +1,24 @@
+---
+command: ["tokenshop"]
+command_aliases: ["tshop"]
+
+title: "TokenShop"
+content: "Choose the rank:"
+rank:
+  Angel:
+    button: "§a- §fAngel §a-\n§9100 §ftokens"
+    content: "Here are the benefits of the rank:\n- /feed\n- /furnace\n\nThe rank costs 100 tokens !"
+    cost: 100
+    command_buy: "setgroup {player} angel"
+  Gods:
+    button: "§e- §fGods §e-\n§9200§f tokens"
+    content: "Here are the benefits of the rank:\n- /feed\n- /furnace\n- /particle\n\nThe rank costs 200 tokens !"
+    cost: 200
+    command_buy: "setgroup {player} gods"
+buy_button: "Buy"
+button: "§l§cBack"
+
+already: "You already have the rank!"
+no_perm: "Yo do not have a permission !"
+not_has_just_token: "You don't have enough tokens !"
+...

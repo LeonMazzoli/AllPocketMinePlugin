@@ -1,0 +1,27 @@
+---
+# Messages
+prefix: "§eAdvantages§f "
+no_exist: "{prefix}The effect does not exist!"
+no_money: "{prefix}You do not have enough money !"
+add_effect: "{prefix}You received the effect§e {name} §f!"
+buy_good: "{prefix}You have purchased the§e {name} §feffect!"
+remove_good: "{prefix}The§e {name} §feffect has been successfully removed from you!"
+
+title: "{prefix}"
+
+# economy: MoneyAPI | EconomyAPI
+economy: MoneyAPI
+
+# inventory: simple | double | hopper
+inventory: hopper
+items: # SLOT: [ ID, META, COUNT, PRICE, CUSTOM NAME ]
+  2: [369, 0, 1, 5000, "§eSpeed"]
+
+item_info: # ID-META: [ ID, DURATION ( IN SECOND ), AMPLIFIER, PARTICLE ( TRUE or FALSE ) ]
+  369-0: [ 1, 20, 1, false ]
+
+# command: [ NAME, DESCRIPTION ]
+# command_aliases: [ NAME, NAME... ]
+command: [ "advantages" ]
+command_aliases: [ ]
+...

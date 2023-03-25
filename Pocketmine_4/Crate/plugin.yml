@@ -1,0 +1,8 @@
+name: Crate
+version: 1.1
+api: 4.0.0
+main: Digueloulou12\Crate
+author: Digueloulou12
+
+# New version 1.1 :
+# - Possibility Console execute command

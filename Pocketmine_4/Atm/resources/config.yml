@@ -1,0 +1,18 @@
+---
+# money: [Money, Minute(s)]
+# money: [2, 1] = 2$/minute
+money: [2, 1]
+
+# economy: BedrockEconomy | MoneyAPI | EconomyAPI
+economy: MoneyAPI
+
+command: ["atm", "Atm Command"]
+command_aliases: []
+
+title: "Atm"
+content: "With your game time you managed to generate {money}$"
+button: "to recover your account"
+
+no_exist: "You have no money to recover!"
+atm_msg: "You got {money}$ back!"
+...

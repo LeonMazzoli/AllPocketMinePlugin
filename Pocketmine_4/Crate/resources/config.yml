@@ -1,0 +1,24 @@
+---
+prefix: "§f[§9CRATE§f] "
+
+# Key Command
+key: "key:Key Command:key.use"
+key_aliases: []
+key_no_player: "{prefix}Vous devez indiquer un joueur !"
+key_no_online_player: "{prefix}Le joueur indiqué n'est pas connecté !"
+key_no_crate: "{prefix}Vous devez indiquer le nom d'une crate !"
+key_no_exist_crate: "{prefix}Il n'y a aucune crate de ce nom !"
+key_amount: "{prefix}Vous devez indiquer une quantité !"
+key_numeric: "{prefix}La quantité doit être numéric !"
+key_good: "{prefix}Vous avez donner§9 {count} §fclef de crate (§9{crate}§f) au joueur §9{player}§f !"
+
+# Crate
+crate_id: 1
+crate_key_id: 131
+crate_no_key: "{prefix}Vous n'avez pas la clef adapté pour cette crate !"
+crate_msg: "{prefix}Vous avez obtenu§9 {loot} §fdans la crate§9 {crate}§f !"
+crate_msg_key: "{prefix}La clef que vous avez dans les mains ne correspond à aucune crate !"
+crate:
+  vote: ["item:1.0.64:64 Pierre:", "command:give {player} diamond_pickaxe:1 pioche en diamant"]
+  commune: ["item:1.0.128:128 Pierre:", "command:give {player} diamond_pickaxe 5:5 pioche en diamant"]
+...
