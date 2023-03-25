@@ -1,0 +1,29 @@
+---
+prefix: "§eDrawer§f "
+
+# drawer:
+#   - [ID, META, MAX_ITEM]
+drawers:
+  - [1, 0, 32]
+  - [7, 0, 256]
+
+item_break: 369
+
+# Messages
+no_item: "{prefix}You can't put air in the drawer!"
+one_item: "{prefix}You can only put one item in the drawer!"
+no_place: "{prefix}There is not enough space in the drawer!"
+
+no_item_in: "{prefix}There are not enough items in the drawer!"
+no_place_inv: "{prefix}You don't have enough space in your inventory!"
+pickup_item: "{prefix}You have retrieved §e{count}§fx item(s) from the drawer!"
+
+popup_add: "§e{count}§f/{max_count}§f"
+
+item_name: "§r§e{name}§fx §e{count}§f/§e{max_count}"
+
+# Form
+title: "§e- §fDrawer §e-"
+content: "{prefix}Please indicate the quantity of item you want to recover: ({count})"
+slider: "Number"
+...

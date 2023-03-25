@@ -1,0 +1,20 @@
+---
+# economy: MoneyAPI | EconomyAPI
+economy: MoneyAPI
+
+no_enchant: "There is no enchant available for this item!"
+no_money: "You don't have enough money"
+no_lapis: "You don't have enough lapis!"
+no_xp: "You don't have enough xp"
+
+title: "Enchantment"
+label: "{xp} level(s) xp/level\n{lapis} lapis/level\n{money}$/level"
+
+# "ID:LEVEL_MAX:MONEY_PER_LEVEL:LAPIS_PER_LEVEL:XP_LEVEL_PER_LEVEL"
+enchantments:
+  sword:
+    - "17:4:500:0:0"
+  tools: null
+  armor: null
+  bow: null
+...

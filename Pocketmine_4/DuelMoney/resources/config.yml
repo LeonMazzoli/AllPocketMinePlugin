@@ -1,0 +1,55 @@
+---
+# Command
+# "COMMAND:DESCRIPTION:PERMISSION"
+command: "duel:Duel Command"
+command_aliases: []
+
+# Position
+# "X:Y:Z:LEVEL_NAME"
+pos1: [0, 100, 0, "world"]
+pos2: [0, 110, 0, "world"]
+
+# Temps en seconde
+invitation_expire: 30
+
+# Form
+title: "Duel"
+random: "Aléatoire"
+choose: "Joueur"
+
+# Message
+no_money_: "Le joueur indiqué n'a pas assez de money !"
+no_money: "Vous n'avez pas assez d'argent !"
+100: "Le montant indiqué doit être supérieur à 100$ !"
+no_args_money: "Vous devez indiquer un montant !"
+is_numeric: "Le montant indiquer doit être numérique !"
+noplayer: "La commande doit être executer en jeu !"
+already: "L'arène est déja occupé !"
+noinvit: "Vous n'avez pas d'invitation !"
+expiration: "Votre invation a expiré !"
+offline: "Le joueur qui vous a invité est hors ligne !"
+offline2: "Le joueur sélectionné est hors ligne !"
+no: "Vous ne pouvez pas jouer contre vous même !"
+invite: "Vous venez d'inviter le joueur {player} en duel et vous avez miser {money}$ !"
+start: "Le duel commence !"
+stop: "Le combat est terminé car l'un d'entre vous à abandonné !"
+invitation: "Le joueur {player} vous invite a faire un duel contre lui ! Attention ! La mise du duel est de {money}$ ! Vous pouvez faire /duel accept pour accepter son duel !"
+win: "Le joueur {player} vient de remporter le duel !"
+
+command_win: "givemoney {player} 3"
+
+teleportation_commands:
+  - hub
+  - spawn
+  - lobby
+  - tpa
+
+items: # "ID:META:COUNT"
+  - "1:0:64"
+
+# ID_META"
+helmet: "306:0"
+chestplate: "307:0"
+leggings: "308:0"
+boots: "309:0"
+...

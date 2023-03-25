@@ -1,0 +1,8 @@
+name: EnchantmentTable
+version: 1.5
+api: 4.0.0
+main: Digueloulou12\Table
+author: Digueloulou12
+
+# New Version 1.5 :
+# - Custom Enchant for Bow

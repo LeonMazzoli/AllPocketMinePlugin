@@ -1,0 +1,46 @@
+---
+prefix: "§eQuests§f "
+
+# Messages
+already_start: "{prefix}You have already started the quest!"
+start_quest: "{prefix}You have start a quest §e{name} !"
+already_finish: "{prefix}You have already finish a quest of day !"
+finish_quest: "{prefix}You have finish quest !"
+no_permission: "{prefix}You do not have a permission !"
+list_players: "{prefix}Here is the list of players who have completed the quest: {players}"
+
+status: "§e{min}§f/§e{max}"
+
+time_zone: "Europe/Paris"
+
+# Commands
+DailyQuestCommand: ["dailyquest", "DailyQuest Command Description"]
+DailyQuestCommandAliases: ["quest", "quests"]
+
+AdminDailyQuestCommand: ["admindailyquest", "AdminDailyQuest Command Description"]
+AdminDailyQuestCommandAliases: ["adminquest", "adminquests"]
+AdminDailyQuestCommandPermission: "admindailyquest.use"
+
+# Form
+title: "§eQuests"
+button: "Start Quest"
+
+# Quests
+quests:
+  DefaultQuest:
+    description: "Test Quest \n Name : {name}"
+    type: ["BREAK", 1, 0, 64]
+    win: "give {player} diamond"
+
+# quests:
+#   QuestName:
+#     description: "Quest Description"
+#     type: [QUEST_TYPE, ITEM/BlOCK_ID, ITEM/BLOCK_META, COUNT]
+#     win: "QUEST COMMAND"
+#
+# List Type :
+#  CRAFT -> Craft items in a crafting table
+#  ITEM -> Craft items in a crafting table
+#  BREAk -> Break blocks
+#  PLACE -> Place blocks
+...

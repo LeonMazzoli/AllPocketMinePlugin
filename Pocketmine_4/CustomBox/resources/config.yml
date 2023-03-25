@@ -1,0 +1,40 @@
+---
+boxs:
+  DigueBox:
+    nametag: "§eDigue§fBox"
+    content: "Diamond | 10%\nAir | 90%"
+    air_loot: 90
+    loots:
+      - ["give {player} diamond", 10]
+    skin:
+      texture: "skin.png"
+      geometry: "geometry.json"
+      geometryId: "geometry.unknown"
+
+# Key ( key: [ID, META] )
+key: [369, 0]
+
+# Messages
+prefix: "§eBox§f "
+
+remove_box: "{prefix}You have successfully removed the box!"
+no_permission: "{prefix}You do not have a permission !"
+exist_name: "{prefix}You must indicate a box that exists!"
+spawn_box: "{prefix}You have just spawned a box !"
+indication_remove: "{prefix}Click on the box you want to delete!"
+no_args_player: "{prefix}You must indicate an online player!"
+no_args_box: "{prefix}You must indicate the name of a box!"
+give_key: "{prefix}You have given {count}x key to player {player}!"
+no_key: "{prefix}You do not have a key !"
+
+# Command | Permission: box.use
+command: ["box", "BoxCommand"]
+command_aliases: []
+
+commandKey: ["key", "KeyCommand"]
+commandKey_aliases: []
+
+# Form
+title: "§e{name}§f Box"
+button: "§eOpen §f!"
+...
