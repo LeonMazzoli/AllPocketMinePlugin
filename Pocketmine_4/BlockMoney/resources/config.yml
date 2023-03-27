@@ -1,0 +1,5 @@
+---
+# ID-META: [MIN_MONEY, MAX_MONEY]
+1-0: [10, 50]
+message: "+{money}$"
+...

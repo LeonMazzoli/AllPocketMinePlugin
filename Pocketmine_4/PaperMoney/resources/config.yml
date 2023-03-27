@@ -1,0 +1,5 @@
+---
+no_args: "Vous devez indiquer un montant en chiffre !"
+customName: "{money}$"
+no_money: "Vous n'avez pas assez d'argent !"
+...

@@ -1,0 +1,12 @@
+---
+area:
+  - [100, 90, 90]
+  - [90, 100, 100]
+
+world: world
+time: 100
+timeWin: 10
+
+money: 500
+power: 100
+...

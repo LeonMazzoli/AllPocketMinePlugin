@@ -1,0 +1,13 @@
+name: RandomLootCommand
+version: 1.0
+api: 4.0.0
+main: Zeon\RandomLootCommand\RandomLootCommand
+author: Zeon
+
+commands:
+  randomloot:
+    permission: "randomloot.use"
+
+permissions:
+  randomloot.use:
+    default: true

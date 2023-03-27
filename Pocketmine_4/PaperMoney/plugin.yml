@@ -1,0 +1,14 @@
+name: PaperMoney
+version: 1.0
+api: 4.0.0
+main: Digueloulou12\PaperMoney\PaperMoney
+author: Digueloulou12
+
+commands:
+  bank:
+    description: "Bank Command"
+    permission: "bank.use"
+
+permissions:
+  bank.use:
+    default: true

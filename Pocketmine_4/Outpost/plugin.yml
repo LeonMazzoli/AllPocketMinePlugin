@@ -1,0 +1,8 @@
+name: Outpost
+version: 1.0
+api: 4.0.0
+main: Digueloulou12\Outpost\Outpost
+author: Digueloulou12
+
+depend:
+  - PiggyFactions

@@ -1,0 +1,8 @@
+name: CoinFlip
+version: 1.0
+api: 4.0.0
+main: Zeon\CoinFlip\CoinFlip
+author: Zeon
+
+depend:
+  - MoneyAPI
